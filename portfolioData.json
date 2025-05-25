@@ -1,0 +1,168 @@
+{
+    "header": {
+      "name": "Nisal Perera",
+      "title": "Computer Vision | Robotic | Research and Development",
+      "location": "Negombo, Sri Lanka",
+      "phone": "+94 (77) 3122382",
+      "email": "chinthanapereranisal@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/nisalperera/",
+      "image": "images/2H8A6958 no back.png"
+    },
+    "sections": [
+      {
+        "id": "summary",
+        "title": "Summary",
+        "type": "paragraph",
+        "content": "Enthusiastic Senior Machine Learning Engineer with extensive experience in Computer Vision, Python, and Research. Passionate about joining a cutting-edge company and contributing to imaging projects. Skilled in designing and implementing advanced computer vision models, working autonomously or as part of a collaborative team. Proven expertise in deep learning, image processing, and strong commercial experience with Python. Committed to contributing technical expertise and strong communication skills to drive impactful solutions for the company's innovative projects."
+      },
+      {
+        "id": "education",
+        "title": "Education",
+        "type": "list",
+        "items": [
+          {
+            "degree": "MSc in Artificial Intelligence",
+            "institution": "IU International University of Applied Sciences, Germany",
+            "period": "08/2022 - Present",
+            "location": "Remote"
+          },
+          {
+            "degree": "B.Eng. (Honors) in Mechatronics Engineering",
+            "institution": "Birmingham City University, UK",
+            "period": "06/2019 - 11/2020",
+            "location": "Remote"
+          },
+          {
+            "degree": "B.Eng. (Honors) in Software Engineering",
+            "institution": "London Metropolitan University, UK",
+            "period": "03/2018 - 10/2019",
+            "location": "Remote"
+          }
+        ]
+      },
+      {
+        "id": "skills",
+        "title": "Skills",
+        "type": "table",
+        "rows": [
+          ["Machine Learning", "Deep Learning", "Robotics"],
+          ["Computer Vision", "Python", "Tensorflow/Keras"],
+          ["Pytorch", "Docker", "AWS"],
+          ["MongoDB", "Embedded Systems", "Numpy"],
+          ["Pandas", "Scikit Learn", "OpenCV"],
+          ["Matplotlib", "", ""]
+        ]
+      },
+      {
+        "id": "certifications",
+        "title": "Certifications",
+        "type": "list",
+        "items": [
+          "AWS Cloud Technical Essentials",
+          "Deep Learning Specialization, DeepLearning.ai",
+          "TensorFlow in Practice, DeepLearning.ai"
+        ]
+      },
+      {
+        "id": "languages",
+        "title": "Languages",
+        "type": "table",
+        "rows": [
+          {
+            "language": "Sinhala",
+            "proficiency": 5
+          },
+          {
+            "language": "English",
+            "proficiency": 4
+          }
+        ]
+      },
+      {
+        "id": "experience",
+        "title": "Experience",
+        "type": "list",
+        "items": [
+          {
+            "title": "Visiting Lecturer",
+            "organization": "International College of Business and Technology (ICBT campus)",
+            "location": "Colombo, Sri Lanka",
+            "period": "10/2022 - Present",
+            "details": [
+              "Deliver electrical and electronic engineering and mechanical engineering related courses",
+              "Assessments designing and marking"
+            ]
+          },
+          {
+            "title": "Senior Machine Learning Engineer",
+            "organization": "Veracity AI/Wenn ASA",
+            "location": "Colombo, Sri Lanka/Stavanger, Norway",
+            "period": "01/2022 - Present",
+            "details": [
+              "Tested the performance of the algorithms before rolling them out",
+              "Improved damage size estimation by reducing the average error from more than 40% to less than 20%. The algorithm estimated the depth better than DepthAnything model",
+              "Improved the latency of pixel to millimeter ratio calculation by 20% per passage",
+              "Reduced the cost of face detection by 57% by fixing bugs related to custom face detection model."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "projects",
+        "title": "Projects",
+        "type": "list",
+        "items": [
+          {
+            "name": "CarEye Capture",
+            "organization": "Wenn ASA",
+            "location": "Stavanger, Norway",
+            "period": "01/2023 - Present",
+            "details": [
+              "Improved damage size estimation by reducing the average error from more than 20% to less than 10%",
+              "Improved the latency of pixel to millimeter ratio calculation from 1 minute per image to 2 seconds per image",
+              "Performed MLOps tasks with 100% success rate"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "references",
+        "title": "References",
+        "type": "list",
+        "items": [
+          {
+            "name": "Dr. Faraz Barzideh",
+            "position": "Senior Deep Learning Scientist at Wenn ASA",
+            "email": "faraz.barzideh@wenn.no",
+            "phone": "+4745170964"
+          },
+          {
+            "name": "Mr. Pasindu Gamage",
+            "position": "Lecturer at ICBT Campus, Colombo",
+            "email": "pasindug@icbtcampus.edu.lk",
+            "phone": "+94 702732888"
+          }
+        ]
+      }
+    ],
+    "footer": {
+      "links": [
+        {
+          "label": "GitHub",
+          "icon": "fab fa-github",
+          "url": "https://github.com/nisalperera"
+        },
+        {
+          "label": "GitLab",
+          "icon": "fab fa-gitlab",
+          "url": "https://gitlab.com/nisalperera"
+        },
+        {
+          "label": "LinkedIn",
+          "icon": "fab fa-linkedin",
+          "url": "https://www.linkedin.com/in/nisalperera/"
+        }
+      ]
+    }
+  }
+  
