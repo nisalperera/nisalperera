@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/nisalperera.github.io/static/css/main.468fe830.css",
-    "main.js": "/nisalperera.github.io/static/js/main.89b9b675.js",
-    "static/js/453.f4fbaa6d.chunk.js": "/nisalperera.github.io/static/js/453.f4fbaa6d.chunk.js",
-    "index.html": "/nisalperera.github.io/index.html",
-    "main.468fe830.css.map": "/nisalperera.github.io/static/css/main.468fe830.css.map",
-    "main.89b9b675.js.map": "/nisalperera.github.io/static/js/main.89b9b675.js.map",
-    "453.f4fbaa6d.chunk.js.map": "/nisalperera.github.io/static/js/453.f4fbaa6d.chunk.js.map"
+    "main.css": "/static/css/main.468fe830.css",
+    "main.js": "/static/js/main.d57e3e3f.js",
+    "static/js/453.f4fbaa6d.chunk.js": "/static/js/453.f4fbaa6d.chunk.js",
+    "index.html": "/index.html",
+    "main.468fe830.css.map": "/static/css/main.468fe830.css.map",
+    "main.d57e3e3f.js.map": "/static/js/main.d57e3e3f.js.map",
+    "453.f4fbaa6d.chunk.js.map": "/static/js/453.f4fbaa6d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.468fe830.css",
-    "static/js/main.89b9b675.js"
+    "static/js/main.d57e3e3f.js"
   ]
 }
