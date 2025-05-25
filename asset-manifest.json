@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/nisalperera/static/css/main.468fe830.css",
-    "main.js": "/nisalperera/static/js/main.104a8086.js",
-    "static/js/453.f4fbaa6d.chunk.js": "/nisalperera/static/js/453.f4fbaa6d.chunk.js",
-    "index.html": "/nisalperera/index.html",
-    "main.468fe830.css.map": "/nisalperera/static/css/main.468fe830.css.map",
-    "main.104a8086.js.map": "/nisalperera/static/js/main.104a8086.js.map",
-    "453.f4fbaa6d.chunk.js.map": "/nisalperera/static/js/453.f4fbaa6d.chunk.js.map"
+    "main.css": "/static/css/main.468fe830.css",
+    "main.js": "/static/js/main.d57e3e3f.js",
+    "static/js/453.f4fbaa6d.chunk.js": "/static/js/453.f4fbaa6d.chunk.js",
+    "index.html": "/index.html",
+    "main.468fe830.css.map": "/static/css/main.468fe830.css.map",
+    "main.d57e3e3f.js.map": "/static/js/main.d57e3e3f.js.map",
+    "453.f4fbaa6d.chunk.js.map": "/static/js/453.f4fbaa6d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.468fe830.css",
-    "static/js/main.104a8086.js"
+    "static/js/main.d57e3e3f.js"
   ]
 }
