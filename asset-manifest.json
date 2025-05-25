@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/nisalperera.github.io/nisalperera.github.io/static/css/main.ed8a40e3.css",
+    "main.js": "/nisalperera.github.io/nisalperera.github.io/static/js/main.f3026498.js",
+    "static/js/453.f4fbaa6d.chunk.js": "/nisalperera.github.io/nisalperera.github.io/static/js/453.f4fbaa6d.chunk.js",
+    "index.html": "/nisalperera.github.io/nisalperera.github.io/index.html",
+    "main.ed8a40e3.css.map": "/nisalperera.github.io/nisalperera.github.io/static/css/main.ed8a40e3.css.map",
+    "main.f3026498.js.map": "/nisalperera.github.io/nisalperera.github.io/static/js/main.f3026498.js.map",
+    "453.f4fbaa6d.chunk.js.map": "/nisalperera.github.io/nisalperera.github.io/static/js/453.f4fbaa6d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ed8a40e3.css",
+    "static/js/main.f3026498.js"
+  ]
+}
