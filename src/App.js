@@ -23,7 +23,6 @@ function App() {
   useEffect(() => {
     fetch("./data.json")
       .then((res) => {
-        console.log(res); // Print the response object
         return res.json();
       })
       .then(setData);
