@@ -1,0 +1,106 @@
+{
+    "summary": "Enthusiastic Senior Machine Learning Engineer with extensive experience in Computer Vision, Python, and Research. Passionate about joining a cutting-edge company and contributing to imaging projects. Skilled in designing and implementing advanced computer vision models, working autonomously or as part of a collaborative team. Proven expertise in deep learning, image processing, and strong commercial experience with Python. Committed to contributing technical expertise and strong communication skills to drive impactful solutions for the company's innovative projects.",
+    "education": [
+      {
+        "degree": "MSc in Artificial Intelligence",
+        "institution": "IU International University of Applied Sciences, Germany",
+        "period": "08/2022 - Present",
+        "location": "Remote"
+      },
+      {
+        "degree": "B.Eng. (Honors) in Mechatronics Engineering",
+        "institution": "Birmingham City University, UK",
+        "period": "06/2019 - 11/2020",
+        "location": "Remote"
+      },
+      {
+        "degree": "B.Eng. (Honors) in Software Engineering",
+        "institution": "London Metropolitan University, UK",
+        "period": "03/2018 - 10/2019",
+        "location": "Remote"
+      }
+    ],
+    "skills": [
+      "Machine Learning",
+      "Deep Learning",
+      "Robotics",
+      "Computer Vision",
+      "Python",
+      "Tensorflow/Keras",
+      "Pytorch",
+      "Docker",
+      "AWS",
+      "MongoDB",
+      "Embedded Systems",
+      "Numpy",
+      "Pandas",
+      "Scikit Learn",
+      "OpenCV",
+      "Matplotlib"
+    ],
+    "languages": [
+      {
+        "name": "Sinhala",
+        "proficiency": 5
+      },
+      {
+        "name": "English",
+        "proficiency": 4
+      }
+    ],
+    "experience": [
+      {
+        "title": "Visiting Lecturer",
+        "company": "International College of Business and Technology (ICBT campus)",
+        "location": "Colombo, Sri Lanka",
+        "period": "10/2022 - Present",
+        "details": [
+          "Deliver electrical and electronic engineering and mechanical engineering related courses",
+          "Assessments designing and marking"
+        ]
+      },
+      {
+        "title": "Senior Machine Learning Engineer",
+        "company": "Veracity AI/Wenn ASA",
+        "location": "Colombo, Sri Lanka/Stavanger, Norway",
+        "period": "01/2022 - Present",
+        "details": [
+          "Tested the performance of the algorithms before rolling them out",
+          "Improved damage size estimation by reducing the average error from more than 40% to less than 20%. The algorithm estimated the depth better than DepthAnything model",
+          "Improved the latency of pixel to millimeter ratio calculation by 20% per passage",
+          "Reduced the cost of face detection by 57% by fixing bugs related to custom face detection model."
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "name": "CarEye Capture",
+        "company": "Wenn ASA, Stavanger, Norway",
+        "period": "01/2023 - Present",
+        "details": [
+          "Improved damage size estimation by reducing the average error from more than 20% to less than 10%",
+          "Improved the latency of pixel to millimeter ratio calculation from 1 minute per image to 2 seconds per image",
+          "Performed MLOps tasks with 100% success rate"
+        ]
+      }
+    ],
+    "references": [
+      {
+        "name": "Dr. Faraz Barzideh, PhD",
+        "position": "Senior Deep Learning Scientist at Wenn ASA",
+        "contact": {
+          "email": "faraz.barzideh@wenn.no",
+          "phone": "+47 451 70 964"
+        }
+      },
+      {
+        "name": "Mr. Pasindu Gamage, PhD (Reading) MSc BEng (Hon’s) MIEEE",
+        "position": "Program leader in Electrical & Electronics/ Mechatronics Engineering, Lecturer in Engineering at ICBT Campus Colombo Sri Lanka.",
+        "contact": {
+          "email": "pasindug@icbtcampus.edu.lk",
+          "phone": "+94 70 273 2888"
+        }
+      }
+    ]
+  }
+  
