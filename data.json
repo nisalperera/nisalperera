@@ -68,11 +68,13 @@
   "languages": [
     {
       "name": "Sinhala",
-      "proficiency": 5
+      "proficiency": 5,
+      "level": "Native"
     },
     {
       "name": "English",
-      "proficiency": 4
+      "proficiency": 4,
+      "level": "Proficient"
     }
   ],
   "experience": [
