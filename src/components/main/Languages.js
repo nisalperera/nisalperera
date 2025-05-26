@@ -1,4 +1,4 @@
-import React from "react";
+
 
 // Renders a row for each language, with dynamic dots
 function LanguageRow({ name, filled, total = 5 }) {
