@@ -1,106 +1,301 @@
 {
-    "summary": "Enthusiastic Senior Machine Learning Engineer with extensive experience in Computer Vision, Python, and Research. Passionate about joining a cutting-edge company and contributing to imaging projects. Skilled in designing and implementing advanced computer vision models, working autonomously or as part of a collaborative team. Proven expertise in deep learning, image processing, and strong commercial experience with Python. Committed to contributing technical expertise and strong communication skills to drive impactful solutions for the company's innovative projects.",
-    "education": [
-      {
-        "degree": "MSc in Artificial Intelligence",
-        "institution": "IU International University of Applied Sciences, Germany",
-        "period": "08/2022 - Present",
-        "location": "Remote"
-      },
-      {
-        "degree": "B.Eng. (Honors) in Mechatronics Engineering",
-        "institution": "Birmingham City University, UK",
-        "period": "06/2019 - 11/2020",
-        "location": "Remote"
-      },
-      {
-        "degree": "B.Eng. (Honors) in Software Engineering",
-        "institution": "London Metropolitan University, UK",
-        "period": "03/2018 - 10/2019",
-        "location": "Remote"
-      }
-    ],
-    "skills": [
-      "Machine Learning",
-      "Deep Learning",
-      "Robotics",
-      "Computer Vision",
-      "Python",
-      "Tensorflow/Keras",
-      "Pytorch",
-      "Docker",
-      "AWS",
-      "MongoDB",
-      "Embedded Systems",
-      "Numpy",
-      "Pandas",
-      "Scikit Learn",
-      "OpenCV",
-      "Matplotlib"
-    ],
-    "languages": [
-      {
-        "name": "Sinhala",
-        "proficiency": 5
-      },
-      {
-        "name": "English",
-        "proficiency": 4
-      }
-    ],
-    "experience": [
-      {
-        "title": "Visiting Lecturer",
-        "company": "International College of Business and Technology (ICBT campus)",
-        "location": "Colombo, Sri Lanka",
-        "period": "10/2022 - Present",
-        "details": [
-          "Deliver electrical and electronic engineering and mechanical engineering related courses",
-          "Assessments designing and marking"
-        ]
-      },
-      {
-        "title": "Senior Machine Learning Engineer",
-        "company": "Veracity AI/Wenn ASA",
-        "location": "Colombo, Sri Lanka/Stavanger, Norway",
-        "period": "01/2022 - Present",
-        "details": [
-          "Tested the performance of the algorithms before rolling them out",
-          "Improved damage size estimation by reducing the average error from more than 40% to less than 20%. The algorithm estimated the depth better than DepthAnything model",
-          "Improved the latency of pixel to millimeter ratio calculation by 20% per passage",
-          "Reduced the cost of face detection by 57% by fixing bugs related to custom face detection model."
-        ]
-      }
-    ],
-    "projects": [
-      {
-        "name": "CarEye Capture",
-        "company": "Wenn ASA, Stavanger, Norway",
-        "period": "01/2023 - Present",
-        "details": [
-          "Improved damage size estimation by reducing the average error from more than 20% to less than 10%",
-          "Improved the latency of pixel to millimeter ratio calculation from 1 minute per image to 2 seconds per image",
-          "Performed MLOps tasks with 100% success rate"
-        ]
-      }
-    ],
-    "references": [
-      {
-        "name": "Dr. Faraz Barzideh, PhD",
-        "position": "Senior Deep Learning Scientist at Wenn ASA",
-        "contact": {
-          "email": "faraz.barzideh@wenn.no",
-          "phone": "+47 451 70 964"
+  "summary": "I am a passionate Machine Learning Engineer specializing in Computer Vision and Robotics, with a strong foundation in deep learning, image processing, and embedded systems. With hands-on experience at leading AI startups and technology companies, I have successfully designed, developed, and deployed advanced computer vision solutions for real-world applications, including autonomous robotics, automotive damage detection, retail analytics, and healthcare. </br> My expertise spans the full machine learning pipeline—from research and prototyping to production deployment—leveraging Python, PyTorch, TensorFlow, OpenCV, and cloud technologies such as AWS and Docker. I have a proven track record of improving model accuracy, optimizing inference speed, and reducing operational costs through innovative engineering and MLOps best practices. <br> As a collaborative team player and mentor, I have led machine learning teams, contributed to impactful R&D projects, and delivered scalable AI products for both local and international clients. I am currently pursuing a Master’s in Artificial Intelligence at IU International University of Applied Sciences, further strengthening my academic and practical expertise. <br> Driven by curiosity and a commitment to innovation, I am eager to contribute my skills to cutting-edge projects that solve complex challenges and create meaningful impact in the field of AI and computer vision.",
+  "education": [
+    {
+      "degree": "MSc in Robotics and Autonomous systems",
+      "institution": "University of Turku, Finland",
+      "period": "09/2025 - Onwards",
+      "location": "Turku",
+      "additionalInfo": [
+        "Studies include Computer Vision, Perception and Navigation of Mobile Robots, Hardware Acceleration for AI, Arial Robotics and Multi-Robot Systems.",
+        "Starting the studies on Autumn semester of 2025."
+      ],
+      "thesis": null
+    },
+    {
+      "degree": "MSc in Artificial Intelligence",
+      "institution": "IU International University of Applied Sciences, Germany",
+      "period": "08/2022 - Present (Currently Paused)",
+      "location": "Remote",
+      "additionalInfo": [
+        "Majoring in Artificial Intelligence in Automotive.",
+        "Studies include Computer Vision and NLP, Architecture of Self-Driving Vehicles, Computer Vision for Autonomous Systems, Sensor Fusion, Localiation and Motion planning.",
+        "Currently on pause because of the relocation to Europe is in progress."
+      ],
+      "thesis": null
+    },
+    {
+      "degree": "BEng (Honors) in Mechatronics Engineering",
+      "institution": "Birmingham City University, UK",
+      "period": "06/2019 - 11/2020",
+      "location": "Remote",
+      "additionalInfo": [
+        "Studies include Analog and Digital Electronics, Control Systems, Signal Processing, Programmable Logic Controllers, Microcontrollers, Industrial Robotics, Dynamics of Machines.",
+        "Final Project: Design and Implementation of Adaptive Traffic Light Control System for Urban Area Pedestrian Crossings"
+      ],
+      "thesis": "https://drive.google.com/file/d/1UaQI9ps79lijrj0627LoENKNh6v7oOPu/view?usp=sharing"
+    },
+    {
+      "degree": "BEng (Honors) in Software Engineering",
+      "institution": "London Metropolitan University, UK",
+      "period": "03/2018 - 10/2019",
+      "location": "Remote",
+      "additionalInfo": [
+        "Studies include Object Oriented Programming, Web Development, .Net Framework, Software Quality Assuarence, Intro to Artificial Intelligence",
+        "Final Project: Design and Implementation of Smart Home System"
+      ],
+      "thesis": null
+    }
+  ],
+  "skills": [
+    "Machine Learning",
+    "Deep Learning",
+    "Robotics",
+    "Computer Vision",
+    "Python",
+    "Tensorflow/Keras",
+    "Pytorch",
+    "Docker",
+    "AWS",
+    "MongoDB",
+    "Embedded Systems",
+    "Numpy",
+    "Pandas",
+    "Scikit Learn",
+    "OpenCV",
+    "Matplotlib"
+  ],
+  "languages": [
+    {
+      "name": "Sinhala",
+      "proficiency": 5,
+      "level": "Native"
+    },
+    {
+      "name": "English",
+      "proficiency": 4,
+      "level": "Proficient"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Visiting Lecturer",
+      "company": "International College of Business and Technology (ICBT campus)",
+      "description": "ICBT is one of the leading private higher education institutes in Sri Lanka. ICBT delivers degree programs with collaboration of top UK universities and has degree programs on their own with accreditation from University Grant Commission in Sri Lanka.",
+      "location": "Colombo, Sri Lanka",
+      "period": "10/2022 - 06/2025",
+      "responsibilities": [
+        "<strong>Deliver</strong> Electrical and Electronic Engineering and Mechatronic Engineering related courses such as Circuit Theory, Programmable Logic Controllers and Inducrial Automation.",
+        "<strong>Designing and Marking of Assessments</strong> for the modules delivered."
+      ],
+      "achievements": []
+    },
+    {
+      "title": "Machine Learning Engineer/ Computer Vision Engineer",
+      "company": "Veracity AI/Wenn ASA",
+      "description": "Veracity AI is a startup company in Sri Lanka focused on AI and Machine Learning related projects/ products. Veracity AI has a partnership with Wenn ASA. Wenn ASA is a company that provides automated external evaluation of a vehicle, detection of irregularities and decision support.",
+      "location": "Colombo, Sri Lanka/Stavanger, Norway",
+      "period": "01/2023 - Present",
+      "achievements": [
+        "<strong>Improved</strong> Size Coefficient Estimation service <strong>accuracy</strong> to average of <strong>75%</strong>.",
+        "<strong>Improved</strong> Size Coefficient Estimation service <strong>execution time</strong> by <strong>20%</strong>.",
+        "<strong>Improved</strong> Face Blur Service in which resulted in <strong>57% cost reduction</strong>."
+      ],
+      "responsibilities": [
+        "<strong>Collaborated</strong> with cloud development team at Wenn ASA.",
+        "<strong>Responsible for MLOps</strong>, <strong>Model optimization</strong> for latency and throughput"
+      ]
+    },
+    {
+      "title": "Machine Learning Engineer/ Computer Vision Engineer",
+      "company": "OREL IT Pvt Ltd",
+      "description": "OREL IT is a company that provides software solutions and cloud services in Sri Lanka. OREL IT's main focus is on AI/ Machine Learning, Computer Vision, and general software solutions.",
+      "location": "Nawinna, Sri Lanka",
+      "period": "06/2022 - 01/2023",
+      "achievements": [
+        "<strong>Developed and Implemented</strong> 2nd phase with 80% accuracy (on Cereal and Canned food departments).",
+        "<strong>Reduced initial inference time</strong> of the model by <strong>10%</strong> using batch processing.",
+        "<strong>Increase the throughput by 3x</strong> using sagemaker endpoints.",
+        "<strong>Successfully completed</strong> POC of Healthcare assistant project with <strong>90% accuracy</strong>."
+      ],
+      "responsibilities": [
+        "<strong>Lead/ Mentor</strong> a team of Machine Learning engineers.",
+        "<strong>Manage</strong> Machine Learning Team in R&D Division.",
+        "<strong>Product owner</strong> for Project Planigo-AI",
+        "<strong>Designing, Implementing, and Deploying</strong> Machine Learning Models"
+      ]
+    },
+    {
+      "title": "Associate Engineer - Research and Technology",
+      "company": "BooleanLabs Pvt Ltd",
+      "description": "BooleanLabs is a company that provides software solutions in Sri Lanka. BooleanLabs is focused on AI/ Machine Learning and general software solutions. BooleanLabs has national and international clients including leading Sri Lankan companies in various fields.",
+      "location": "Colombo, Sri Lanka",
+      "period": "02/2022 - 05/2022",
+      "achievements": [
+        "<strong>Successfully completed</strong> backend for swap hub project using Python Flask framework."
+      ],
+      "responsibilities": [
+        "<strong>Product owner</strong> for the Swaphub project",
+        "<strong>Develop Applications</strong> for client requirements"
+      ]
+    },
+    {
+      "title": "Associate Machine Learning Engineer/ Associate Computer Vision Engineer",
+      "company": "OREL IT Pvt Ltd",
+      "description": "OREL IT is a company that provides software solutions and cloud services in Sri Lanka. OREL IT's main focus is on AI/ Machine Learning, Computer Vision, and general software solutions.",
+      "location": "Nawinna, Sri Lanka",
+      "period": "12/2020 - 01/2022",
+      "achievements": [
+        "<strong>Deployed</strong> a state-of-the-art machine learning model on the AWS cloud platform.",
+        "<strong>Scaled</strong> the model to identify 200 product classes.",
+        "<strong>Increase</strong> the throughput by 2x as it was.",
+        "<strong>Reduced initial inference time</strong> of the model by 10%."
+      ],
+      "responsibilities": [
+        "<strong>Develop, evaluate, deploy and monitor</strong> state-of-the-art algorithms in the Computer Vision domain.",
+        "<strong>Apply software engineering practices</strong> to build efficient and scalable solutions deployed in a critical production setting.",
+        "<strong>Use a data-driven approach to solve unique and potentially unsolvable problems</strong> that require more than off-the-shelf algorithms."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Autonomous Robot with Stereo Vision",
+      "company": "Hobby project",
+      "period": "01/2024 - Present",
+      "description": "Development of an autonomous robot capable of navigating surfaces and avoiding obstacles using stereo vision. The project leverages ROS and Gazebo for simulation, and integrates a segmentation variant of the YOLO model for real-time object detection. The focus is on both software (simulation, perception) and hardware development.",
+      "details": [
+        "Developed a robot simulation using ROS and Gazebo",
+        "Created a new ROS messages module for YOLO detection outputs",
+        "Built ROS Nodes to process frames from dual cameras and detect objects using a segmentation-based YOLO model",
+        "Currently working on developing the hardware components of the robot"
+      ],
+      "links": [
+        {
+          "name": "Mobile Robot",
+          "github": "https://github.com/nisalperera/mobile_robot",
+          "official": null
+        },
+        {
+          "name": "ROS2 YOLO message service with stereo vision",
+          "github": "https://github.com/nisalperera/yolo_service",
+          "official": null
         }
+      ]
+    },
+    {
+      "name": "CarEye Capture",
+      "company": "Wenn ASA",
+      "period": "01/2023 - Present",
+      "description": "An R&D project focused on computer vision tasks for vehicle inspection, including object detection, segmentation, and image processing. The system is designed to automatically detect and assess exterior vehicle damages, providing automated external evaluation and decision support for the automotive industry.",
+      "details": [
+        "Trained object detection models to identify exterior vehicle damages, achieving 80% F1-score",
+        "Conducted research on damage segmentation and damage size estimation, reaching 75% accuracy on size estimation"
+      ],
+      "links": [
+        {
+          "name": "CarEye Capture",
+          "github": null,
+          "official": "https://www.wenn.no/careye"
+        }
+      ]
+    },
+    {
+      "name": "Planogram Compliance and Realogram Management System - Arigo AI",
+      "company": "OrelIT Pvt Ltd",
+      "period": "01/2021 - 01/2023",
+      "description": "An AI-powered system for automating planogram compliance and realogram management in retail environments. The solution uses computer vision to analyze shelf layouts, ensuring products are placed according to planograms, and provides real-time compliance reporting to retailers.",
+      "details": [
+        "Implemented a custom algorithm using image warping and perspective correction to calculate product positions on shelves with 90% accuracy",
+        "Deployed the solution as a RESTful API on AWS cloud using containerization",
+        "Utilized AWS Sagemaker for efficient and scalable machine learning model deployment",
+        "Scaled the system to identify 200 distinct product classes"
+      ],
+      "links": [
+        {
+          "name": "Arigo AI",
+          "github": null,
+          "official": "https://www.arigo-ai.com/"
+        }
+      ]
+    },
+    {
+      "name": "Virtual Health Assistant (POC)",
+      "company": "OrelIT Pvt Ltd",
+      "period": "01/2022 - 08/2022",
+      "description": "A proof-of-concept telemedicine platform featuring a virtual health assistant for remote patient monitoring and vital tracking. The system uses computer vision to collect patient data and provides dashboards for healthcare professionals, aiming to enhance hospital workflow and patient care.",
+      "details": [
+        "Deployed the solution to a local hospital with 80% accuracy",
+        "Enabled remote patient monitoring and vital tracking using computer vision",
+        "Developed dashboards for doctors and nurses to monitor patient status"
+      ],
+      "links": []
+    },
+    {
+      "name": "Automatic Vehicle Tracking System",
+      "company": "OrelIT Pvt Ltd",
+      "period": "2021",
+      "description": "A prototype system for tracking vehicles entering and exiting facilities, leveraging deep learning and computer vision. The solution detects vehicles and license plates, tracks their movement, and uses OCR for license plate recognition, aiming to automate parking management and security.",
+      "details": [
+        "Utilized Yolov4 for vehicle and license plate detection",
+        "Implemented centroid tracking algorithm to track vehicles with 95% accuracy",
+        "Integrated an improved OCR algorithm for license plate recognition with 95% accuracy"
+      ],
+      "links": [
+        {
+          "name": "Automatic Vehicle Tracking System",
+          "github": "https://github.com/nisalperera/boomgate",
+          "official": null
+        }
+      ]
+    }
+  ],
+  "certifications": {
+    "coursera": [
+      {
+        "name": "AWS Cloud Technical Essentials",
+        "certificate": "https://drive.google.com/file/d/1kw5t6Zngx-5I-3rUC_59OzO-TcqZk88L/view?usp=sharing"
       },
       {
-        "name": "Mr. Pasindu Gamage, PhD (Reading) MSc BEng (Hon’s) MIEEE",
-        "position": "Program leader in Electrical & Electronics/ Mechatronics Engineering, Lecturer in Engineering at ICBT Campus Colombo Sri Lanka.",
-        "contact": {
-          "email": "pasindug@icbtcampus.edu.lk",
-          "phone": "+94 70 273 2888"
-        }
+        "name": "Deep Learning Specialization",
+        "certificate": "https://drive.google.com/file/d/1HS_C8Faibla4DL_6lUx6OnFx3HG89q43/view?usp=sharing"
+      },
+      {
+        "name": "Tensorfow in Practice",
+        "certificate": "https://drive.google.com/file/d/1jE9VTUNobDilawCbrcspQAtz1Q-loeW5/view?usp=sharing"
+      }
+    ],
+    "udemy": [
+      {
+        "name": "Data Science - Deep Learning in Python",
+        "certificate": "https://drive.google.com/file/d/1-1xuufZXQwkFPUUYYRIMQPKMw_5foV_n/view?usp=sharing"        
+      },
+      {
+        "name": "Modern Deep Learning in Python",
+        "certificate": "https://drive.google.com/file/d/1ADwQYdNrGDcQshQK80OA_O8qOkuvr5lv/view?usp=sharing"        
+      },
+      {
+        "name": "Machine Learning A-Z: Hands on Python and R in Data Science",
+        "certificate": "https://drive.google.com/file/d/1MEhmTUiYNdH8iqnIHha3VqLZYp9t37uS/view?usp=sharing"        
       }
     ]
-  }
-  
+  },
+  "references": [
+    {
+      "name": "Dr. Faraz Barzideh, PhD",
+      "position": "Senior Deep Learning Scientist at Wenn ASA",
+      "contact": {
+        "email": "faraz.barzideh@wenn.no",
+        "phone": "+47 451 70 964"
+      }
+    },
+    {
+      "name": "Mr. Pasindu Gamage, PhD (Reading) MSc BEng (Hon’s) MIEEE",
+      "position": "Program leader in Electrical & Electronics/ Mechatronics Engineering, Lecturer in Engineering at ICBT Campus Colombo Sri Lanka.",
+      "contact": {
+        "email": "pasindug@icbtcampus.edu.lk",
+        "phone": "+94 70 273 2888"
+      }
+    }
+  ]
+}

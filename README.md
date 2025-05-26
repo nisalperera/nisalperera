@@ -1,24 +1,83 @@
-<h1 align="center">Hi 👋, I'm Nisal Perera</h1>
-<h3 align="center">A passionate computer vision and robotic engineer from Sri Lanka</h3>
+## 👋 Hi, I'm Nisal Perera
 
-- 🔭 I’m currently working on [CarEye Capture](https://www.wenn.no/careye)
+**Computer Vision Engineer | Machine Learning | Image Processing | AI Solutions**
 
-- 🌱 I’m currently learning **MSc in AI, MSc in Robotics and Autonimous systems, ROS2**
+---
 
-- 👨‍💻 All of my projects are available at [https://nisalperera.github.io/nisalperera/](https://nisalperera.github.io/nisalperera/)
+Welcome to my GitHub! I'm passionate about advancing automation and quality control through cutting-edge machine vision systems. I thrive on contributing to innovative projects that leverage computer vision and machine learning, with a strong foundation in image processing, algorithm development, and model optimization. I enjoy collaborating with cross-functional teams to deliver impactful solutions.
 
-- 💬 Ask me about **Computer Vision, Robotics, Pytorch, Detectron2, AWS Sagemaker**
+---
 
-- 📫 How to reach me **chinthanapereranisal@gmail.com**
+### 🚀 Skills
 
-- 📄 Know about my experiences [https://nisalperera.github.io/nisalperera/](https://nisalperera.github.io/nisalperera/)
+- Robotics
+- Machine Learning & Deep Learning
+- Computer Vision
+- PyTorch, TensorFlow/Keras
+- Python, Java
+- OpenCV, Docker, MLOps
+- Edge Computing
 
-- ⚡ Fun fact **I am a traditional Kandyan Dancer**
+---
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/nisalperera" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="nisalperera" height="30" width="40" /></a>
-</p>
+### 🎓 Education
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.arduino.cc/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino" width="40" height="40"/> </a> <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> </a> <a href="https://azure.microsoft.com/en-in/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg" alt="azure" width="40" height="40"/> </a> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cs/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.djangoproject.com/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/django.svg" alt="django" width="40" height="40"/> </a> <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a> <a href="https://flask.palletsprojects.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" alt="flask" width="40" height="40"/> </a> <a href="https://cloud.google.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" alt="gcp" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://opencv.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" width="40" height="40"/> </a> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://pytorch.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="40" height="40"/> </a> <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> </a> <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/> </a> <a href="https://spring.io/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="spring" width="40" height="40"/> </a> <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/> </a> </p>
+| Institution                                    | Degree/Program                                                          | Period           |
+|------------------------------------------------|-------------------------------------------------------------------------|------------------|
+| University of Turku, Finland                   | MSc in Information Communication Technology (Robotics & Autonomous Systems) | 09/2025 - 06/2027|
+| IU International University of Applied Sciences | MSc in Artificial Intelligence: Applied Autonomous Driving (Paused)      | 08/2022 - 12/2026|
+| Birmingham City University, UK                  | B.Eng. (Honors) in Mechatronics Engineering                             | 06/2019 - 11/2020|
+
+---
+
+### 🛠️ Notable Projects
+
+#### **Autonomous Robot with Stereo Vision**  
+*Negombo, Sri Lanka | 01/2024 - Present*
+
+- Developing a robot capable of navigating surfaces using stereo vision.
+- Built simulation in ROS and Gazebo.
+- Created ROS modules for YOLO-based object detection and segmentation.
+- Currently working on hardware integration.
+
+#### **CarEye Capture**  
+*Wenn ASA, Stavanger, Norway | 01/2023 - Present*
+
+- R&D in object detection, segmentation, and image processing.
+- Trained models for vehicle damage detection (80% F1-score).
+- Achieved 75% accuracy in damage size estimation.
+
+#### **Planogram Compliance & Realogram Management System**  
+*OrelIT Pvt Ltd, Nawinna, Sri Lanka | 01/2021 - 01/2023*
+
+- Developed algorithms for product position detection on shelves (90% accuracy).
+- Deployed models on AWS using containerization and SageMaker.
+- Scaled system to identify 200+ product classes.
+
+#### **Virtual Health Assistant (POC)**  
+*OrelIT Pvt Ltd, Nawinna, Sri Lanka | 01/2022 - 08/2022*
+
+- Built a telemedicine platform for remote patient monitoring.
+- Deployed with 80% accuracy in a local hospital.
+
+#### **Automatic Vehicle Tracking System**  
+*OrelIT Pvt Ltd, Nawinna, Sri Lanka | 2021*
+
+- Developed vehicle and license plate detection using YOLOv4.
+- Achieved 95% accuracy in vehicle tracking and OCR for license plates.
+
+---
+
+### 📫 Contact
+
+- 📧 chinthanapereranisal@gmail.com
+- 📞 +94 (77) 3122382
+- [LinkedIn](https://www.linkedin.com/in/nisalperera/)
+- [GitHub](https://github.com/nisalperera/)
+- Kochchikade, Sri Lanka
+
+---
+
+> *"Excited to support technical requirements and drive performance enhancements across varied customer environments."*
+
+---

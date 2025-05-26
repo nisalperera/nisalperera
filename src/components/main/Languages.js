@@ -1,10 +1,11 @@
-import React from "react";
+
 
 // Renders a row for each language, with dynamic dots
-function LanguageRow({ name, filled, total = 5 }) {
+function LanguageRow({ name, level, filled, total = 5 }) {
   return (
     <tr>
-      <th>{name}</th>
+      <td>{name}</td>
+      <td>{level}</td>
       <td>
         <div className="proficiency">
           {Array.from({ length: total }).map((_, idx) => (
@@ -24,11 +25,19 @@ function LanguagesTable({ languages }) {
     <div className="section" id="languages">
       <h2 className="section-title">Languages</h2>
       <table className="languages-table table">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Level</th>
+            <th></th>
+          </tr>
+        </thead>
         <tbody>
           {languages.map((lang) => (
             <LanguageRow
               key={lang.name}
               name={lang.name}
+              level={lang.level}           // <-- Pass the level prop
               filled={lang.proficiency}
               total={lang.total || 5}
             />
