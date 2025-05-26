@@ -1,18 +1,18 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
-import Navigation from "./components/Navigation";
-import Header from "./components/Header";
-import Summary from "./components/Summary";
-import Education from "./components/Education";
-import Skills from "./components/Skills";
-import Certifications from "./components/Certifications";
-import Languages from "./components/Languages";
-import Experience from "./components/Experience";
-import Projects from "./components/Projects";
-import References from "./components/References";
-import Footer from "./components/Footer";
+import Navigation from "./components/main/Navigation";
+import Header from "./components/main/Header";
+import Summary from "./components/main/Summary";
+import Education from "./components/main/Education";
+import Skills from "./components/main/Skills";
+import Certifications from "./components/main/Certifications";
+import Languages from "./components/main/Languages";
+import Experience from "./components/main/Experience";
+import Projects from "./components/main/Projects";
+import References from "./components/main/References";
+import Footer from "./components/main/Footer";
 
-import Loader from "./components/Loader";
+import Loader from "./components/main/Loader";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
@@ -29,16 +29,18 @@ function App() {
   }, []);
 
   if (!data) return <Loader />;
+
+  const certificates = data.certifications
+
   return (
     <>
-      <Navigation certifications={data.certifications && Array.isArray(data.certifications) && data.certifications.length > 0}/>
+      <Navigation certifications={certificates}/>
       <div className="container" style={{ marginTop: "80px" }}>
         <Header />
         <Summary summary={data.summary} />
         <Education education={data.education} />
         <Skills skills={data.skills} />
-        {data.certifications && Array.isArray(data.certifications) && data.certifications.length > 0 &&
-          <Certifications certifications={data.certifications} />}
+        {certificates && <Certifications certificates={certificates} />}
         <Languages languages={data.languages} />
         <Experience experience={data.experience} />
         <Projects projects={data.projects} />
