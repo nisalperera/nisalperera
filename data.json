@@ -158,26 +158,6 @@
       ]
     }
   ],
-  "projects-1": [
-    {
-      "name": "CarEye Capture",
-      "company": "Wenn ASA, Stavanger, Norway",
-      "period": "01/2023 - Present",
-      "description": "",
-      "details": [
-        "Improved damage size estimation by reducing the average error from more than 20% to less than 10%",
-        "Improved the latency of pixel to millimeter ratio calculation from 1 minute per image to 2 seconds per image",
-        "Performed MLOps tasks with 100% success rate"
-      ]
-    },
-    {
-      "name": "Project name",
-      "company": "Company that owns the proect. (Hobby project if project is mine and Final Project of <university> if it is a University project",
-      "period": "Time period",
-      "description": "Description of the project. Add details from the internet if needed.",
-      "details": "Things that have been done as a list"
-    }
-  ],
   "projects": [
     {
       "name": "Autonomous Robot with Stereo Vision",
@@ -261,7 +241,13 @@
         "Implemented centroid tracking algorithm to track vehicles with 95% accuracy",
         "Integrated an improved OCR algorithm for license plate recognition with 95% accuracy"
       ],
-      "links": []
+      "links": [
+        {
+          "name": "Automatic Vehicle Tracking System",
+          "github": "https://github.com/nisalperera/boomgate",
+          "official": null
+        }
+      ]
     }
   ],
   "certifications": {
