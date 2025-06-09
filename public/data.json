@@ -2,15 +2,19 @@
   "summary": "I am a passionate Machine Learning Engineer specializing in Computer Vision and Robotics, with a strong foundation in deep learning, image processing, and embedded systems. With hands-on experience at leading AI startups and technology companies, I have successfully designed, developed, and deployed advanced computer vision solutions for real-world applications, including autonomous robotics, automotive damage detection, retail analytics, and healthcare. </br> My expertise spans the full machine learning pipeline—from research and prototyping to production deployment—leveraging Python, PyTorch, TensorFlow, OpenCV, and cloud technologies such as AWS and Docker. I have a proven track record of improving model accuracy, optimizing inference speed, and reducing operational costs through innovative engineering and MLOps best practices. <br> As a collaborative team player and mentor, I have led machine learning teams, contributed to impactful R&D projects, and delivered scalable AI products for both local and international clients. I am currently pursuing a Master’s in Artificial Intelligence at IU International University of Applied Sciences, further strengthening my academic and practical expertise. <br> Driven by curiosity and a commitment to innovation, I am eager to contribute my skills to cutting-edge projects that solve complex challenges and create meaningful impact in the field of AI and computer vision.",
   "education": [
     {
-      "degree": "MSc in Robotics and Autonomous systems",
+      "degree": "MSc in Information and Communication Technology",
       "institution": "University of Turku, Finland",
       "period": "09/2025 - Onwards",
       "location": "Turku",
       "additionalInfo": [
+        "Majoring in Robotics and Autonomous Systems",
         "Studies include Computer Vision, Perception and Navigation of Mobile Robots, Hardware Acceleration for AI, Arial Robotics and Multi-Robot Systems.",
-        "Starting the studies on Autumn semester of 2025."
+        "Starting the studies in the Autumn of 2025."
       ],
-      "thesis": null
+      "thesis": {
+        "title": "Not completed yet",
+        "thesisDocumentUrl": null
+      }
     },
     {
       "degree": "MSc in Artificial Intelligence",
@@ -22,7 +26,10 @@
         "Studies include Computer Vision and NLP, Architecture of Self-Driving Vehicles, Computer Vision for Autonomous Systems, Sensor Fusion, Localiation and Motion planning.",
         "Currently on pause because of the relocation to Europe is in progress."
       ],
-      "thesis": null
+      "thesis": {
+        "title": "Not completed yet",
+        "thesisDocumentUrl": null
+      }
     },
     {
       "degree": "BEng (Honors) in Mechatronics Engineering",
@@ -33,7 +40,10 @@
         "Studies include Analog and Digital Electronics, Control Systems, Signal Processing, Programmable Logic Controllers, Microcontrollers, Industrial Robotics, Dynamics of Machines.",
         "Final Project: Design and Implementation of Adaptive Traffic Light Control System for Urban Area Pedestrian Crossings"
       ],
-      "thesis": "https://drive.google.com/file/d/1UaQI9ps79lijrj0627LoENKNh6v7oOPu/view?usp=sharing"
+      "thesis": {
+        "title": "Design and Implementation of Adaptive Traffic Light Control System for Urban Area Pedestrian Crossings.",
+        "thesisDocumentUrl": "https://drive.google.com/file/d/1UaQI9ps79lijrj0627LoENKNh6v7oOPu/view?usp=sharing"
+      }
     },
     {
       "degree": "BEng (Honors) in Software Engineering",
@@ -41,10 +51,13 @@
       "period": "03/2018 - 10/2019",
       "location": "Remote",
       "additionalInfo": [
-        "Studies include Object Oriented Programming, Web Development, .Net Framework, Software Quality Assuarence, Intro to Artificial Intelligence",
+        "Studies include Object Oriented Programming, Web Development, .Net Framework, Software Quality Assurance, Intro to Artificial Intelligence",
         "Final Project: Design and Implementation of Smart Home System"
       ],
-      "thesis": null
+      "thesis": {
+        "title": "Do not have access to the document",
+        "thesisDocumentUrl": null
+      }
     }
   ],
   "skills": [
@@ -85,7 +98,7 @@
       "location": "Colombo, Sri Lanka",
       "period": "10/2022 - 06/2025",
       "responsibilities": [
-        "<strong>Deliver</strong> Electrical and Electronic Engineering and Mechatronic Engineering related courses such as Circuit Theory, Programmable Logic Controllers and Inducrial Automation.",
+        "<strong>Deliver</strong> Electrical and Electronic Engineering and Mechatronic Engineering related courses such as Circuit Theory, Programmable Logic Controllers and Industrial Automation.",
         "<strong>Designing and Marking of Assessments</strong> for the modules delivered."
       ],
       "achievements": []
@@ -102,7 +115,7 @@
         "<strong>Improved</strong> Face Blur Service in which resulted in <strong>57% cost reduction</strong>."
       ],
       "responsibilities": [
-        "<strong>Collaborated</strong> with cloud development team at Wenn ASA.",
+        "<strong>Collaborated</strong> with the cloud development team at Wenn ASA.",
         "<strong>Responsible for MLOps</strong>, <strong>Model optimization</strong> for latency and throughput"
       ]
     },
@@ -275,7 +288,7 @@
         "certificate": "https://drive.google.com/file/d/1ADwQYdNrGDcQshQK80OA_O8qOkuvr5lv/view?usp=sharing"        
       },
       {
-        "name": "Machine Learning A-Z: Hands on Python and R in Data Science",
+        "name": "Machine Learning A-Z: Hands-on Python and R in Data Science",
         "certificate": "https://drive.google.com/file/d/1MEhmTUiYNdH8iqnIHha3VqLZYp9t37uS/view?usp=sharing"        
       }
     ]
