@@ -24,16 +24,20 @@ function Education({ education }) {
             )}
             {edu.thesis && (
               <div>
+              {edu.thesis.thesisDocumentUrl ? (
                 <a
-                  href={edu.thesis}
+                  href={edu.thesis.thesisDocumentUrl}
                   target="_blank"
                   rel="noopener noreferrer"
                   style={{ color: "#007bff", textDecoration: "underline" }}
                   title="View Thesis PDF"
                 >
-                  📄 View Thesis Document
+                  📄 {edu.thesis.title}
                 </a>
-              </div>
+              ) : (
+                <span style={{ textDecoration: "underline" }}>{edu.thesis.title}</span>
+              )}
+            </div>
             )}
           </li>
         ))}

@@ -11,7 +11,10 @@
         "Studies include Computer Vision, Perception and Navigation of Mobile Robots, Hardware Acceleration for AI, Arial Robotics and Multi-Robot Systems.",
         "Starting the studies in the Autumn of 2025."
       ],
-      "thesis": "Not yet completed"
+      "thesis": {
+        "title": "Not completed yet",
+        "thesisDocumentUrl": null
+      }
     },
     {
       "degree": "MSc in Artificial Intelligence",
@@ -23,7 +26,10 @@
         "Studies include Computer Vision and NLP, Architecture of Self-Driving Vehicles, Computer Vision for Autonomous Systems, Sensor Fusion, Localiation and Motion planning.",
         "Currently on pause because of the relocation to Europe is in progress."
       ],
-      "thesis": "Not yet completed"
+      "thesis": {
+        "title": "Not completed yet",
+        "thesisDocumentUrl": null
+      }
     },
     {
       "degree": "BEng (Honors) in Mechatronics Engineering",
@@ -34,7 +40,10 @@
         "Studies include Analog and Digital Electronics, Control Systems, Signal Processing, Programmable Logic Controllers, Microcontrollers, Industrial Robotics, Dynamics of Machines.",
         "Final Project: Design and Implementation of Adaptive Traffic Light Control System for Urban Area Pedestrian Crossings"
       ],
-      "thesis": "https://drive.google.com/file/d/1UaQI9ps79lijrj0627LoENKNh6v7oOPu/view?usp=sharing"
+      "thesis": {
+        "title": "Design and Implementation of Adaptive Traffic Light Control System for Urban Area Pedestrian Crossings.",
+        "thesisDocumentUrl": "https://drive.google.com/file/d/1UaQI9ps79lijrj0627LoENKNh6v7oOPu/view?usp=sharing"
+      }
     },
     {
       "degree": "BEng (Honors) in Software Engineering",
@@ -45,7 +54,10 @@
         "Studies include Object Oriented Programming, Web Development, .Net Framework, Software Quality Assurance, Intro to Artificial Intelligence",
         "Final Project: Design and Implementation of Smart Home System"
       ],
-      "thesis": null
+      "thesis": {
+        "title": "Do not have access to the document",
+        "thesisDocumentUrl": null
+      }
     }
   ],
   "skills": [
