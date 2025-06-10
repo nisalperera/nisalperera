@@ -44,11 +44,11 @@ function App() {
   }, []);
 
   if (isLoading) return <Loader />;
-  if (data === null){
+  if (data === null) {
     console.log("Data is null, likely due to an error loading the data file.");
     return <NotFound />;
   }
-   
+
   return (
     <BrowserRouter basename="/nisalperera">
       <Routes>
