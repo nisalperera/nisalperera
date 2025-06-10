@@ -44,10 +44,13 @@ function App() {
   }, []);
 
   if (isLoading) return <Loader />;
-  if (data === null) return <NotFound />;
-
+  if (data === null){
+    console.log("Data is null, likely due to an error loading the data file.");
+    return <NotFound />;
+  }
+   
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/nisalperera">
       <Routes>
         <Route path="/" element={<MainLayout data={data} />}>
           {/* Home/Projects List */}
