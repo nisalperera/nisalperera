@@ -1,4 +1,4 @@
-
+import { Link } from 'react-router-dom';
 
 function Projects({ projects }) {
   return (
@@ -6,7 +6,9 @@ function Projects({ projects }) {
       <h2 className="section-title">Projects</h2>
       {projects.map((proj, idx) => (
         <div key={idx} className="project-item">
-          <strong>{proj.name}</strong>
+          <Link to={`/project/${proj.name.toLowerCase().replace(/\s+/g, '-').replace(/-+/g, '-')}`}>
+            <strong>{proj.name}</strong>
+          </Link>
           {proj.company && <> — <span>{proj.company}</span></>}
           {proj.period && <> ({proj.period})</>}
           <p>{proj.description}</p>
