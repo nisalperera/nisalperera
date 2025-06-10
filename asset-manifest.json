@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/nisalperera/static/css/main.468fe830.css",
-    "main.js": "/nisalperera/static/js/main.9e03ce4b.js",
+    "main.js": "/nisalperera/static/js/main.b3e77325.js",
     "static/js/453.f4fbaa6d.chunk.js": "/nisalperera/static/js/453.f4fbaa6d.chunk.js",
     "index.html": "/nisalperera/index.html",
     "main.468fe830.css.map": "/nisalperera/static/css/main.468fe830.css.map",
-    "main.9e03ce4b.js.map": "/nisalperera/static/js/main.9e03ce4b.js.map",
+    "main.b3e77325.js.map": "/nisalperera/static/js/main.b3e77325.js.map",
     "453.f4fbaa6d.chunk.js.map": "/nisalperera/static/js/453.f4fbaa6d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.468fe830.css",
-    "static/js/main.9e03ce4b.js"
+    "static/js/main.b3e77325.js"
   ]
 }
