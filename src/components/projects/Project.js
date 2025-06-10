@@ -10,7 +10,7 @@ const sanitizeName = name => name.replace(/\s+/g, '').toLowerCase();
 const Project = ({ project, gallerySize }) => {
     const [images, setImages] = useState([]);
 
-    const projectName = project.name.toLowerCase().replace(/\s+/g, '-').replace(/-+/g, '-');
+    const projectName = project.name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/\s+/g, '-').replace(/-+/g, '-').replace(/^-|-$/g, '');
 
     const [projectDetails, setData] = useState(null);
     const [isLoading, setIsLoading] = useState(true);

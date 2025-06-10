@@ -6,7 +6,7 @@ function Projects({ projects }) {
       <h2 className="section-title">Projects</h2>
       {projects.map((proj, idx) => (
         <div key={idx} className="project-item">
-          <Link to={`/project/${proj.name.toLowerCase().replace(/\s+/g, '-').replace(/-+/g, '-')}`}>
+          <Link to={`/project/${proj.name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/\s+/g, '-').replace(/-+/g, '-').slice(0, 50).replace(/^-|-$/g, '')}`}>
             <strong>{proj.name}</strong>
           </Link>
           {proj.company && <> — <span>{proj.company}</span></>}

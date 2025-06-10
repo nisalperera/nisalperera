@@ -23,7 +23,7 @@ import "./App.css";
 function ProjectWrapper({ projects }) {
   const { id } = useParams();
   const project = projects.find(p =>
-    p.name.toLowerCase().replace(/\s+/g, '-').replace(/-+/g, '-') === id
+    p.name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/\s+/g, '-').replace(/-+/g, '-').slice(0, 50).replace(/^-|-$/g, '') === id
   );
   return <Project project={project} />;
 }
