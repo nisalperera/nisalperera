@@ -1,7 +1,8 @@
 {
   "name": "portfolio-app",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "private": false,
+  "homepage": "https://nisalperera.github.io/nisalperera/",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
