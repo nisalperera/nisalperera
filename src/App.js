@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
-import Navigation from "./components/main/Navigation";
-import Header from "./components/main/Header";
+import { BrowserRouter, Routes, Route, useParams } from "react-router-dom";
+import MainLayout from "./MainLayout";
 import Summary from "./components/main/Summary";
 import Education from "./components/main/Education";
 import Skills from "./components/main/Skills";
@@ -9,83 +8,75 @@ import Certifications from "./components/main/Certifications";
 import Languages from "./components/main/Languages";
 import Experience from "./components/main/Experience";
 import Projects from "./components/main/Projects";
+import Project from "./components/projects/Project";
 import References from "./components/main/References";
-import Footer from "./components/main/Footer";
 
 import Loader from "./components/main/Loader";
+import NotFound from "./components/error/NotFound";
+
+import { LoadDataFile } from "./utils/dataLoader";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 
-function App() {
-  const [data, setData] = useState(null);
 
-  useEffect(() => {
-    fetch("./data.json")
-      .then((res) => {
-        return res.json();
-      })
-      .then(setData);
-  }, []);
-
-  if (!data) return <Loader />;
-
-  const certificates = data.certifications
-
-  return (
-    <>
-      <Navigation certifications={certificates}/>
-      <div className="container" style={{ marginTop: "80px" }}>
-        <Header />
-        <Summary summary={data.summary} />
-        <Education education={data.education} />
-        <Skills skills={data.skills} />
-        {certificates && <Certifications certificates={certificates} />}
-        <Languages languages={data.languages} />
-        <Experience experience={data.experience} />
-        <Projects projects={data.projects} />
-        <References references={data.references} />
-        <Footer />
-      </div>
-    </>
+function ProjectWrapper({ projects }) {
+  const { id } = useParams();
+  const project = projects.find(p =>
+    p.name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/\s+/g, '-').replace(/-+/g, '-').slice(0, 50).replace(/^-|-$/g, '') === id
   );
+  return <Project project={project} />;
 }
 
-// function App() {
-//   const [data, setData] = useState(null);
+function App() {
+  const [data, setData] = useState(null);
+  const [isLoading, setIsLoading] = useState(true);
 
-//   useEffect(() => {
-//     fetch("./data.json")
-//       .then((res) => {
-//         console.log(res); // Print the response object
-//         return res.json();
-//       })
-//       .then(setData);
-//   }, []);
+  useEffect(() => {
+    LoadDataFile("./data.json")
+      .then(data => {
+        setData(data);
+        setIsLoading(false);
+      })
+      .catch(() => {
+        setIsLoading(false);
+      });
+  }, []);
 
-//   if (!data) return <Loader/>;
+  if (isLoading) return <Loader />;
+  if (data === null) {
+    console.log("Data is null, likely due to an error loading the data file.");
+    return <NotFound />;
+  }
 
-//   return (
-//     <BrowserRouter>
-//       <Navigation />
-//       <div className="container" style={{ marginTop: "80px" }}>
-//         <Header />
-//         <Routes>
-//           <Route path="/" element={<Navigate to="/summary" />} />
-//           <Route path="/summary" element={<Summary summary={data.summary} />} />
-//           <Route path="/education" element={<Education education={data.education}/>} />
-//           <Route path="/skills" element={<Skills skills={data.skills}/>} />
-//           {/* <Route path="/certifications" element={<Certifications />} /> */}
-//           <Route path="/languages" element={<Languages languages={data.languages} />} />
-//           <Route path="/experience" element={<Experience experience={data.experience}/>} />
-//           <Route path="/projects" element={<Projects projects={data.experience}/>} />
-//           {/* <Route path="/references" element={<References />} /> */}
-//           {/* <Route path="*" element={<h2>404 - Not Found</h2>} /> */}
-//         </Routes>
-//       </div>
-//       {/* <Footer /> */}
-//     </BrowserRouter>
-//   );
-// }
+  return (
+    <BrowserRouter basename="/nisalperera">
+      <Routes>
+        <Route path="/" element={<MainLayout data={data} />}>
+          {/* Home/Projects List */}
+          <Route
+            index
+            element={
+              <>
+                <Summary summary={data.summary} />
+                <Education education={data.education} />
+                <Skills skills={data.skills} />
+                {data.certifications && <Certifications certificates={data.certifications} />}
+                <Languages languages={data.languages} />
+                <Experience experience={data.experience} />
+                <Projects projects={data.projects} />
+                <References references={data.references} />
+              </>
+            }
+          />
+          {/* Project Detail */}
+          <Route path="project/:id" element={<ProjectWrapper projects={data.projects} />} />
+          {/* 404 */}
+          <Route path="*" element={<NotFound />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
+  );
+}
 
 export default App;

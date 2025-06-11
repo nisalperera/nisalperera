@@ -8,7 +8,7 @@ function Education({ education }) {
             <div>
               <strong>{edu.degree}</strong>
               {", "}
-              {edu.institution}
+              <a href={edu.instituteLink}>{edu.institution}</a>
               {" ("}
               {edu.period}
               {", "}

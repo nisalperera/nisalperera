@@ -1,10 +1,30 @@
 import { useState, useEffect } from 'react';
+import Loader from '../main/Loader';
+import { LoadDataFile } from '../../utils/dataLoader';
+
+import NotFound from '../error/NotFound';
 
 // Helper to sanitize project name for folder paths
 const sanitizeName = name => name.replace(/\s+/g, '').toLowerCase();
 
 const Project = ({ project, gallerySize }) => {
     const [images, setImages] = useState([]);
+
+    const projectName = project.name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/\s+/g, '-').replace(/-+/g, '-').replace(/^-|-$/g, '');
+
+    const [projectDetails, setData] = useState(null);
+    const [isLoading, setIsLoading] = useState(true);
+
+    useEffect(() => {
+        LoadDataFile(`./${projectName}.json`)
+            .then(projectDetails => {
+                setData(projectDetails);
+                setIsLoading(false);
+            })
+            .catch(() => {
+                setIsLoading(false);
+            });
+    }, [projectName]);
 
     useEffect(() => {
         if (!project?.name) return;
@@ -38,7 +58,11 @@ const Project = ({ project, gallerySize }) => {
         // eslint-disable-next-line
     }, [project?.name, gallerySize]);
 
-    if (!project) return null;
+    if (isLoading) return <Loader />;
+    if (projectDetails === null) return <NotFound message={ "This page is currently under construction. Please check back soon. "
+    + "I am excited to share what I have worked on!" }/>;
+
+    if (!project) return <NotFound />;
 
     return (
         <div style={styles.container}>

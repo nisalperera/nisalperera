@@ -4,6 +4,7 @@
     {
       "degree": "MSc in Information and Communication Technology",
       "institution": "University of Turku, Finland",
+      "instituteLink": "https://www.utu.fi/en/study-at-utu/masters-degree-programme-in-information-and-communication-technology-robotics-and",
       "period": "09/2025 - Onwards",
       "location": "Turku",
       "additionalInfo": [
@@ -19,6 +20,7 @@
     {
       "degree": "MSc in Artificial Intelligence",
       "institution": "IU International University of Applied Sciences, Germany",
+      "instituteLink": "https://www.iu.org/masters/artificial-intelligence/on-campus/",
       "period": "08/2022 - Present (Currently Paused)",
       "location": "Remote",
       "additionalInfo": [
@@ -34,10 +36,12 @@
     {
       "degree": "BEng (Honors) in Mechatronics Engineering",
       "institution": "Birmingham City University, UK",
+      "instituteLink": "https://www.bcu.ac.uk/",
       "period": "06/2019 - 11/2020",
       "location": "Remote",
       "additionalInfo": [
         "Studies include Analog and Digital Electronics, Control Systems, Signal Processing, Programmable Logic Controllers, Microcontrollers, Industrial Robotics, Dynamics of Machines.",
+        "Studies at ICBT Campus with collaboration with Birmngham City University",
         "Final Project: Design and Implementation of Adaptive Traffic Light Control System for Urban Area Pedestrian Crossings"
       ],
       "thesis": {
@@ -48,10 +52,12 @@
     {
       "degree": "BEng (Honors) in Software Engineering",
       "institution": "London Metropolitan University, UK",
+      "instituteLink": "https://esoft.lk/esoft-courses/beng-hons-in-software-engineering-top-up-london-met-university-uk/",
       "period": "03/2018 - 10/2019",
       "location": "Remote",
       "additionalInfo": [
         "Studies include Object Oriented Programming, Web Development, .Net Framework, Software Quality Assurance, Intro to Artificial Intelligence",
+        "Studied at Esoft Metro Campus with collaboration with London Metropolotan University",
         "Final Project: Design and Implementation of Smart Home System"
       ],
       "thesis": {
