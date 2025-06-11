@@ -20,6 +20,15 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 
 
+/**
+ * Finds a project by a URL-friendly slug derived from its name and renders the Project component for it.
+ *
+ * @param {Object[]} projects - Array of project objects to search.
+ * @returns {JSX.Element} The Project component for the matched project, or with undefined if not found.
+ *
+ * @remark
+ * The project is matched by transforming its name into a slug and comparing it to the `id` route parameter.
+ */
 function ProjectWrapper({ projects }) {
   const { id } = useParams();
   const project = projects.find(p =>
@@ -28,6 +37,13 @@ function ProjectWrapper({ projects }) {
   return <Project project={project} />;
 }
 
+/**
+ * Main application component that loads data and sets up routing for the portfolio site.
+ *
+ * Displays a loading indicator while fetching data, shows a not found page if data fails to load, and renders the main layout with nested routes for the homepage, project details, and unmatched paths.
+ *
+ * @returns {JSX.Element} The rendered application with routing and loaded data.
+ */
 function App() {
   const [data, setData] = useState(null);
   const [isLoading, setIsLoading] = useState(true);

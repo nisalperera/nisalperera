@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import Loader from '../main/Loader';
 import { LoadDataFile } from '../../utils/dataLoader';
+import { slugify } from '../../utils/slug';
 
 import NotFound from '../error/NotFound';
 
@@ -10,12 +11,13 @@ const sanitizeName = name => name.replace(/\s+/g, '').toLowerCase();
 const Project = ({ project, gallerySize }) => {
     const [images, setImages] = useState([]);
 
-    const projectName = project.name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/\s+/g, '-').replace(/-+/g, '-').replace(/^-|-$/g, '');
+    const projectName = project?.name ? slugify(project.name) : null;   // null signals “nothing to load”
 
     const [projectDetails, setData] = useState(null);
     const [isLoading, setIsLoading] = useState(true);
 
     useEffect(() => {
+        if (!projectName) { setIsLoading(false); return; }
         LoadDataFile(`./${projectName}.json`)
             .then(projectDetails => {
                 setData(projectDetails);

@@ -1,3 +1,10 @@
+/**
+ * Renders the header section with a profile image, name, expertise, and interactive contact links.
+ *
+ * Displays clickable links for location (Google Maps), phone, email, and LinkedIn profile.
+ *
+ * @returns {JSX.Element} The header component with profile and contact information.
+ */
 function Header() {
   // Replace with your actual coordinates for Negombo, Sri Lanka
   const locationCoords = "7.259583, 79.856605";
