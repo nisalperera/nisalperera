@@ -1,5 +1,12 @@
 import { Link } from 'react-router-dom';
 
+/**
+ * Renders a list of projects with details, including navigation links for each project.
+ *
+ * Displays each project's name as a clickable link to a project-specific route, along with optional company, period, description, details, and related links.
+ *
+ * @param {Object[]} projects - Array of project objects to display.
+ */
 function Projects({ projects }) {
   return (
     <div className="section" id="projects">

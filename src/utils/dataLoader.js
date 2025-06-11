@@ -1,4 +1,14 @@
-export function LoadDataFile(filename) {
+/**
+   * Loads and parses a JSON data file from the specified filename.
+   *
+   * Attempts to fetch the file and parse its contents as JSON, with a 10-second timeout.
+   *
+   * @param {string} filename - The path or URL of the JSON file to load.
+   * @returns {Promise<any>} A Promise that resolves with the parsed JSON data.
+   *
+   * @throws {Error} If the fetch fails, the response is not OK, the JSON is invalid, or the operation times out after 10 seconds.
+   */
+  export function LoadDataFile(filename) {
     return new Promise((resolve, reject) => {
       const timer = setTimeout(() => {
         reject(new Error("Loading timed out after 10 seconds"));

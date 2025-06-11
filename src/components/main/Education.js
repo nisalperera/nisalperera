@@ -1,3 +1,11 @@
+/**
+ * Renders a section displaying a list of educational qualifications.
+ *
+ * Each education entry includes the degree, institution (as a hyperlink), period, location, optional additional information, and thesis details if available.
+ *
+ * @param {Object[]} education - Array of education objects to display.
+ * @returns {JSX.Element} The rendered education section.
+ */
 function Education({ education }) {
   return (
     <div className="section" id="education">
