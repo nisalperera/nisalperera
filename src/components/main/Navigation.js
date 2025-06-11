@@ -1,16 +1,7 @@
-/**
- * Renders a responsive navigation bar with links to various sections of the site.
- *
- * The navigation bar adapts its base URL depending on the environment and conditionally displays a Certifications link if the {@link certifications} prop is truthy.
- *
- * @param {Object} props
- * @param {boolean} props.certifications - Determines whether to display the Certifications navigation link.
- *
- * @returns {JSX.Element} The navigation bar component.
- */
 function Navigation({ certifications }) {
-
-    const baseUrl = `${process.env.PUBLIC_URL || window.location.origin}${process.env.PUBLIC_URL ? '' : '/nisalperera'}`; // example – adjust to avoid repetition
+    const baseUrl = process.env.REACT_APP_DEV === "true"
+        ? "http://localhost:3000/nisalperera"
+        : "https://nisalperera.github.io/nisalperera/";
 
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
