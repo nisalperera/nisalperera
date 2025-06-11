@@ -59,7 +59,8 @@ const Project = ({ project, gallerySize }) => {
     }, [project?.name, gallerySize]);
 
     if (isLoading) return <Loader />;
-    if (projectDetails === null) return <NotFound />;
+    if (projectDetails === null) return <NotFound message={ "This page is currently under construction. Please check back soon. "
+    + "I am excited to share what I have worked on!" }/>;
 
     if (!project) return <NotFound />;
 
