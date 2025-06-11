@@ -9,12 +9,8 @@
  * @returns {JSX.Element} The navigation bar component.
  */
 function Navigation({ certifications }) {
-    // const baseUrl = process.env.REACT_APP_DEV === "true"
-    //     ? "http://localhost:3000/nisalperera"
-    //     : "https://nisalperera.github.io/nisalperera/";
 
-    const baseUrl =
-+  `${process.env.PUBLIC_URL || window.location.origin}${process.env.PUBLIC_URL ? '' : '/nisalperera'}`; // example – adjust to avoid repetition
+    const baseUrl = `${process.env.PUBLIC_URL || window.location.origin}${process.env.PUBLIC_URL ? '' : '/nisalperera'}`; // example – adjust to avoid repetition
 
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
