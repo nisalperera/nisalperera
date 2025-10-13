@@ -36,7 +36,7 @@ Welcome to my GitHub! I'm passionate about advancing automation and quality cont
 *Negombo, Sri Lanka | 01/2024 - Present*
 
 - Developing a robot capable of navigating surfaces using stereo vision.
-- Built simulation in ROS and Gazebo.
+- Built a simulation using ROS and Gazebo.
 - Created ROS modules for YOLO-based object detection and segmentation.
 - Currently working on hardware integration.
 
