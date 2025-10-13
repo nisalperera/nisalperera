@@ -24,7 +24,7 @@ Welcome to my GitHub! I'm passionate about advancing automation and quality cont
 
 | Institution                                    | Degree/Program                                                          | Period           |
 |------------------------------------------------|-------------------------------------------------------------------------|------------------|
-| University of Turku, Finland                   | MSc in Information Communication Technology (Robotics & Autonomous Systems) | 09/2025 - 06/2027|
+([comment]: # (| University of Turku, Finland                   | MSc in Information Communication Technology (Robotics & Autonomous Systems) | 09/2026 - 06/2028|)
 | IU International University of Applied Sciences | MSc in Artificial Intelligence: Applied Autonomous Driving (Paused)      | 08/2022 - 12/2026|
 | Birmingham City University, UK                  | B.Eng. (Honors) in Mechatronics Engineering                             | 06/2019 - 11/2020|
 
