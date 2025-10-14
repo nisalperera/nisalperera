@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import Loader from '../main/Loader';
 import { LoadDataFile } from '../../utils/dataLoader';
 import { slugify } from '../../utils/slug';
+import { REACT_APP_BASE_URL } from "../../utils/config"
 
 import NotFound from '../error/NotFound';
 
@@ -16,9 +17,11 @@ const Project = ({ project, gallerySize }) => {
     const [projectDetails, setData] = useState(null);
     const [isLoading, setIsLoading] = useState(true);
 
+    
+
     useEffect(() => {
         if (!projectName) { setIsLoading(false); return; }
-        LoadDataFile(`./${projectName}.json`)
+        LoadDataFile(`${REACT_APP_BASE_URL}${projectName}.json`)
             .then(projectDetails => {
                 setData(projectDetails);
                 setIsLoading(false);

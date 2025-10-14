@@ -15,6 +15,7 @@ import Loader from "./components/main/Loader";
 import NotFound from "./components/error/NotFound";
 
 import { LoadDataFile } from "./utils/dataLoader";
+import { REACT_APP_BASE_URL } from "./utils/config"
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
@@ -49,7 +50,7 @@ function App() {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    LoadDataFile("./data.json")
+    LoadDataFile(`${REACT_APP_BASE_URL}data.json`)
       .then(data => {
         setData(data);
         setIsLoading(false);
