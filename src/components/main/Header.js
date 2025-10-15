@@ -7,7 +7,6 @@
  */
 
 import { REACT_APP_DEV, REACT_APP_DEV_URL } from "../../utils/config";
-import ThemeToggle from "./ThemeToggle"; // adjust import path if needed
 
 function Header() {
   const locationCoords = "7.259583, 79.856605";
