@@ -1,8 +1,8 @@
 // MainLayout.js
 import { Outlet } from "react-router-dom";
-import Navigation from "./components/main/Navigation";
-import Header from "./components/main/Header";
-import Footer from "./components/main/Footer";
+import Navigation from "../components/main/Navigation";
+import Header from "../components/projects/Header";
+import Footer from "../components/main/Footer";
 
 /**
  * Renders the main application layout with navigation, header, nested route content, and footer.
@@ -11,7 +11,7 @@ import Footer from "./components/main/Footer";
  * @returns {JSX.Element} The composed layout structure.
  */
 
-function MainLayout({ data ={} }) {
+function ProjectsLayout({ data ={} }) {
   return (
     <>
       <Navigation certifications={data.certifications ?? [] } />
@@ -25,4 +25,4 @@ function MainLayout({ data ={} }) {
   );
 }
 
-export default MainLayout;
+export default ProjectsLayout;

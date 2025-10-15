@@ -6,9 +6,6 @@ import { REACT_APP_BASE_URL } from "../../utils/config"
 
 import NotFound from '../error/NotFound';
 
-// Helper to sanitize project name for folder paths
-const sanitizeName = name => name.replace(/\s+/g, '').toLowerCase();
-
 const Project = ({ project, gallerySize }) => {
     const [images, setImages] = useState([]);
 
@@ -17,11 +14,9 @@ const Project = ({ project, gallerySize }) => {
     const [projectDetails, setData] = useState(null);
     const [isLoading, setIsLoading] = useState(true);
 
-    
-
     useEffect(() => {
         if (!projectName) { setIsLoading(false); return; }
-        LoadDataFile(`${REACT_APP_BASE_URL}${projectName}.json`)
+        LoadDataFile(`${REACT_APP_BASE_URL}${projectName}/details.json`)
             .then(projectDetails => {
                 setData(projectDetails);
                 setIsLoading(false);
@@ -34,7 +29,7 @@ const Project = ({ project, gallerySize }) => {
     useEffect(() => {
         if (!project?.name) return;
 
-        const folder = sanitizeName(project.name);
+        // const folder = sanitizeName(project.name);
         const loadedImages = [];
         let i = 1;
         let loadCount = 0;
@@ -47,7 +42,7 @@ const Project = ({ project, gallerySize }) => {
                 return;
             }
             const img = new window.Image();
-            const src = `/projects/${folder}/${i}.jpg`;
+            const src = `${REACT_APP_BASE_URL}${projectName}/${i}.jpg`;
             img.src = src;
             img.onload = () => {
                 loadedImages.push(src);
@@ -64,15 +59,17 @@ const Project = ({ project, gallerySize }) => {
     }, [project?.name, gallerySize]);
 
     if (isLoading) return <Loader />;
-    if (projectDetails === null) return <NotFound message={ "This page is currently under construction. Please check back soon. "
-    + "I am excited to share what I have worked on!" }/>;
+    if (projectDetails === null) return <NotFound message={"This page is currently under construction. Please check back soon. "
+        + "I am excited to share what I have worked on!"} />;
 
     if (!project) return <NotFound />;
 
+    console.log(projectDetails)
+
     return (
-        <div style={styles.container}>
-            <h2 style={styles.title}>{project.name}</h2>
-            <div style={styles.meta}>
+        <>
+            <h2 className="section-title">{project.name}</h2>
+            <div className="project-item" style={styles.meta}>
                 <span style={styles.company}>{project.company}</span>
                 <span style={styles.period}>{project.period}</span>
             </div>
@@ -82,19 +79,6 @@ const Project = ({ project, gallerySize }) => {
                     <li key={idx} style={styles.detailItem}>{detail}</li>
                 ))}
             </ul>
-            {/* Image Gallery */}
-            {images.length > 0 && (
-                <div style={styles.gallery}>
-                    {images.map((src, idx) => (
-                        <img
-                            key={idx}
-                            src={src}
-                            alt={`Project ${project.name} screenshot ${idx + 1}`}
-                            style={styles.galleryImage}
-                        />
-                    ))}
-                </div>
-            )}
             <div style={styles.links}>
                 {project.links && project.links.map((link, idx) => (
                     <div key={idx} style={styles.linkItem}>
@@ -115,7 +99,49 @@ const Project = ({ project, gallerySize }) => {
                     </div>
                 ))}
             </div>
-        </div>
+            {/* Image Gallery */}
+            <h3 className="section-title">Image Gallery</h3>
+            {images.length > 0 ? (
+                <div style={styles.gallery}>
+                    {images.map((src, idx) => (
+                        <img
+                            key={idx}
+                            src={src}
+                            alt={`Project ${project.name} screenshot ${idx + 1}`}
+                            style={styles.galleryImage}
+                        />
+                    ))}
+                </div>
+            ) : (
+                <div style={{ marginBottom: 16 }}>Images will be updated soon.</div>
+            )}
+            {/* Video Gallery */}
+            <h3 className="section-title">Video Gallary</h3>
+            {/* Video Gallery with Descriptions */}
+            {projectDetails?.videos && projectDetails.videos.length > 0 ? (
+                <div className="project-item" style={styles.videoGrid}>
+                    {projectDetails.videos.map((video, idx) => (
+                        <div key={idx} style={styles.videoTile}>
+                            <video
+                                controls
+                                width="100%"
+                                height="120"
+                                style={styles.video}
+                                src={`${REACT_APP_BASE_URL}${projectName}/${video.link}`}
+                                preload="metadata"
+                            >
+                                Your browser does not support the video tag.
+                            </video>
+                            <div className="project-item" style={styles.videoDescription}>
+                                {video.description}
+                            </div>
+                        </div>
+                    ))}
+                </div>
+            ) : (
+                <div style={{ marginBottom: 16}}>Videos will be updated soon.</div>
+            )}
+        </>
     );
 };
 
@@ -126,20 +152,17 @@ const styles = {
         padding: 24,
         maxWidth: 600,
         margin: '24px auto',
-        background: '#fafbfc',
         boxShadow: '0 2px 8px rgba(0,0,0,0.04)',
         fontFamily: 'Segoe UI, Arial, sans-serif'
     },
     title: {
         margin: 0,
         fontSize: 28,
-        color: '#222'
     },
     meta: {
         display: 'flex',
         justifyContent: 'space-between',
         fontSize: 15,
-        color: '#555',
         marginBottom: 8
     },
     company: { fontWeight: 'bold' },
@@ -174,6 +197,32 @@ const styles = {
     },
     linkItem: {
         marginBottom: 4
+    },
+    videoGrid: {
+        display: 'grid',
+        gridTemplateColumns: 'repeat(2, 1fr)', // Two columns
+        gap: 16,
+        marginBottom: 16,
+    },
+    videoTile: {
+        borderRadius: 4,
+        overflow: 'hidden',
+        boxShadow: '0 1px 4px rgba(0,0,0,0.08)',
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'stretch',
+    },
+    video: {
+        display: 'block',
+        width: '100%',
+        height: '100%',
+        objectFit: 'cover',
+    },
+    videoDescription: {
+        marginTop: 8,
+        padding: '0 8px 8px 8px',
+        fontSize: 14,
+        minHeight: 30
     }
 };
 

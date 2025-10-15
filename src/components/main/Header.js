@@ -22,7 +22,7 @@ function Header() {
         <img src={image_path} alt="Nisal Perera" />
       </div>
       <h1 style={{ marginLeft: "2rem" }}>Nisal Perera</h1>
-      <p>Computer Vision | Robotics | Research and Development</p>
+      <p>Artificial Intelligence | Machine Learning | Deep Learning | Computer Vision | Robotics | Research and Development</p>
       <p>
         <a href={googleMapsUrl} target="_blank" rel="noopener noreferrer">
           Negombo, Sri Lanka
@@ -30,7 +30,7 @@ function Header() {
         |{" "}
         <a href="tel:+94773122382">+94 (77) 3122382</a> |{" "}
         <a href="mailto:chinthanapereranisal@gmail.com">
-          [chinthanapereranisal@gmail.com](mailto:chinthanapereranisal@gmail.com)
+          chinthanapereranisal@gmail.com
         </a>{" "}
         | <a href="https://www.linkedin.com/in/nisalperera/">LinkedIn</a>
       </p>

@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { BrowserRouter, Routes, Route, useParams } from "react-router-dom";
-import MainLayout from "./MainLayout";
+import MainLayout from "./layouts/MainLayout";
+import ProjectsLayout from "./layouts/ProjectsLayout";
 import Summary from "./components/main/Summary";
 import Education from "./components/main/Education";
 import Skills from "./components/main/Skills";
@@ -86,10 +87,12 @@ function App() {
               </>
             }
           />
-          {/* Project Detail */}
-          <Route path="project/:id" element={<ProjectWrapper projects={data.projects} />} />
           {/* 404 */}
           <Route path="*" element={<NotFound />} />
+        </Route>
+        <Route element={<ProjectsLayout />}>
+          {/* Project Detail */}
+          <Route path="project/:id" element={<ProjectWrapper projects={data.projects} />} />
         </Route>
       </Routes>
     </BrowserRouter>
