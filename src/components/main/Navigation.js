@@ -1,3 +1,5 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import { REACT_APP_BASE_URL } from "../../utils/config";
 import ThemeToggle from "../main/ThemeToggle";
 
@@ -8,14 +10,21 @@ function Navigation({ certifications }) {
             <div className="container-fluid">
                 <ThemeToggle />
                 <a
-                  className="navbar-brand ms-4 me-2"
-                  href={`${REACT_APP_BASE_URL}#`}
-                  style={{ marginLeft: "1rem" }}
+                    className="navbar-brand ms-4 me-2"
+                    href={`${REACT_APP_BASE_URL}#`}
+                    style={{ marginLeft: "1rem" }}
                 >
-                  Nisal Perera
+                    Nisal Perera
                 </a>
-                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <button
+                    className="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNav">
