@@ -5,18 +5,24 @@
  *
  * @returns {JSX.Element} The header component with profile and contact information.
  */
+
+import { REACT_APP_DEV, REACT_APP_DEV_URL } from "../../utils/config";
+
 function Header() {
-  // Replace with your actual coordinates for Negombo, Sri Lanka
   const locationCoords = "7.259583, 79.856605";
   const googleMapsUrl = `https://www.google.com/maps/place/${locationCoords}`;
+
+  const image_path = REACT_APP_DEV
+    ? `${REACT_APP_DEV_URL}/2H8A6958 no back.png`
+    : "./2H8A6958 no back.png";
 
   return (
     <div className="header" style={{ alignContent: "center" }}>
       <div className="round-image">
-        <img src="./2H8A6958 no back.png" alt="Nisal Perera" />
+        <img src={image_path} alt="Nisal Perera" />
       </div>
-      <h1>Nisal Perera</h1>
-      <p>Computer Vision | Robotics | Research and Development</p>
+      <h1 style={{ marginLeft: "2rem" }}>Nisal Perera</h1>
+      <p>Artificial Intelligence | Machine Learning | Deep Learning | Computer Vision | Robotics | Research and Development</p>
       <p>
         <a href={googleMapsUrl} target="_blank" rel="noopener noreferrer">
           Negombo, Sri Lanka

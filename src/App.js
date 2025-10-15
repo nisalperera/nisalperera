@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { BrowserRouter, Routes, Route, useParams } from "react-router-dom";
-import MainLayout from "./MainLayout";
+import MainLayout from "./layouts/MainLayout";
+import ProjectsLayout from "./layouts/ProjectsLayout";
 import Summary from "./components/main/Summary";
 import Education from "./components/main/Education";
 import Skills from "./components/main/Skills";
@@ -15,6 +16,7 @@ import Loader from "./components/main/Loader";
 import NotFound from "./components/error/NotFound";
 
 import { LoadDataFile } from "./utils/dataLoader";
+import { REACT_APP_BASE_URL } from "./utils/config"
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
@@ -49,7 +51,7 @@ function App() {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    LoadDataFile("./data.json")
+    LoadDataFile(`${REACT_APP_BASE_URL}data.json`)
       .then(data => {
         setData(data);
         setIsLoading(false);
@@ -85,10 +87,12 @@ function App() {
               </>
             }
           />
-          {/* Project Detail */}
-          <Route path="project/:id" element={<ProjectWrapper projects={data.projects} />} />
           {/* 404 */}
           <Route path="*" element={<NotFound />} />
+        </Route>
+        <Route element={<ProjectsLayout />}>
+          {/* Project Detail */}
+          <Route path="project/:id" element={<ProjectWrapper projects={data.projects} />} />
         </Route>
       </Routes>
     </BrowserRouter>

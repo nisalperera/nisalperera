@@ -1,0 +1,9 @@
+{
+    "name": "Autonomous Robot with Stereo Vision",
+    "videos": [
+        {
+            "description": "Autonomous Navigation using Nav2 stack, AMCL (Adaptive Monte Carlo Locatization) and 2D Lidar. This is the visualization on RViz.",
+            "link": "rviz.mp4"
+        }
+    ]
+}

@@ -1,4 +1,5 @@
-
+import React, { useContext } from "react";
+import { ThemeContext } from "../../context/ThemeContext";
 
 function to2DArray(arr, cols) {
   const result = [];
@@ -14,24 +15,18 @@ function to2DArray(arr, cols) {
 }
 
 function Skills({ skills }) {
-  // return (
-  //   <section>
-  //     <h2>Skills</h2>
-  //     <ul>
-  //       {skills.map((skill, idx) => (
-  //         <li key={idx}>{skill}</li>
-  //       ))}
-  //     </ul>
-  //   </section>
-  // );
-
   const numCols = 3;
+  const { theme } = useContext(ThemeContext);
   const skills2D = to2DArray(skills, numCols);
+
+  const tableClass = theme === 'dark'
+    ? 'skills-table table table-dark'
+    : 'skills-table table';
 
   return (
     <div className="section" id="skills">
       <h2 className="section-title">Skills</h2>
-      <table className="skills-table table">
+      <table className={ tableClass }>
       <tbody>
         {skills2D.map((row, rowIdx) => (
           <tr key={rowIdx}>
