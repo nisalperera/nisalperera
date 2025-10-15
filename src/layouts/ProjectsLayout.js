@@ -19,8 +19,8 @@ function ProjectsLayout({ data ={} }) {
         <Header />
         {/* This is where nested routes will render */}
         <Outlet />
-        <Footer />
       </div>
+      <Footer />
     </>
   );
 }
