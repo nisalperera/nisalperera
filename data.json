@@ -1,16 +1,16 @@
 {
-  "summary": "I am a passionate Machine Learning Engineer specializing in Computer Vision and Robotics, with a strong foundation in deep learning, image processing, and embedded systems. With hands-on experience at leading AI startups and technology companies, I have successfully designed, developed, and deployed advanced computer vision solutions for real-world applications, including autonomous robotics, automotive damage detection, retail analytics, and healthcare. </br> My expertise spans the full machine learning pipeline—from research and prototyping to production deployment—leveraging Python, PyTorch, TensorFlow, OpenCV, and cloud technologies such as AWS and Docker. I have a proven track record of improving model accuracy, optimizing inference speed, and reducing operational costs through innovative engineering and MLOps best practices. <br> As a collaborative team player and mentor, I have led machine learning teams, contributed to impactful R&D projects, and delivered scalable AI products for both local and international clients. I am currently pursuing a Master’s in Artificial Intelligence at IU International University of Applied Sciences, further strengthening my academic and practical expertise. <br> Driven by curiosity and a commitment to innovation, I am eager to contribute my skills to cutting-edge projects that solve complex challenges and create meaningful impact in the field of AI and computer vision.",
+  "summary": "I am a passionate Machine Learning Engineer specializing in Computer Vision and Robotics, with a strong foundation in deep learning, image processing, and embedded systems. With hands-on experience at leading AI startups and technology companies, I have successfully designed, developed, and deployed advanced computer vision solutions for real-world applications, including autonomous robotics, automotive damage detection, retail analytics, and healthcare. </br> My expertise spans the full machine learning pipeline from research and prototyping to production deployment leveraging Python, PyTorch, TensorFlow, OpenCV, and cloud technologies such as AWS and Docker. I have a proven track record of improving model accuracy, optimizing inference speed, and reducing operational costs through innovative engineering and MLOps best practices. <br> As a collaborative team player and mentor, I have led machine learning teams, contributed to impactful R&D projects, and delivered scalable AI products for both local and international clients. I am currently pursuing a Master’s in Artificial Intelligence at IU International University of Applied Sciences, further strengthening my academic and practical expertise. <br> Driven by curiosity and a commitment to innovation, I am eager to contribute my skills to cutting-edge projects that solve complex challenges and create meaningful impact in the field of AI and computer vision.",
   "education": [
     {
       "degree": "MSc in Information and Communication Technology",
       "institution": "University of Turku, Finland",
       "instituteLink": "https://www.utu.fi/en/study-at-utu/masters-degree-programme-in-information-and-communication-technology-robotics-and",
-      "period": "09/2025 - Onwards",
+      "period": "09/2026 - Onwards",
       "location": "Turku",
       "additionalInfo": [
         "Majoring in Robotics and Autonomous Systems",
         "Studies include Computer Vision, Perception and Navigation of Mobile Robots, Hardware Acceleration for AI, Arial Robotics and Multi-Robot Systems.",
-        "Starting the studies in the Autumn of 2025."
+        "Starting the studies in the Autumn of 2026."
       ],
       "thesis": {
         "title": "Not completed yet",
@@ -24,9 +24,9 @@
       "period": "08/2022 - Present (Currently Paused)",
       "location": "Remote",
       "additionalInfo": [
-        "Majoring in Artificial Intelligence in Automotive.",
+        "Majoring in Artificial Intelligence Specialising in Applied Autonomous Vehicles.",
         "Studies include Computer Vision and NLP, Architecture of Self-Driving Vehicles, Computer Vision for Autonomous Systems, Sensor Fusion, Localiation and Motion planning.",
-        "Currently on pause because of the relocation to Europe is in progress."
+        "Currently on pause due to relocation."
       ],
       "thesis": {
         "title": "Not completed yet",
@@ -117,8 +117,9 @@
       "period": "01/2023 - Present",
       "achievements": [
         "<strong>Improved</strong> Size Coefficient Estimation service <strong>accuracy</strong> to average of <strong>75%</strong>.",
-        "<strong>Improved</strong> Size Coefficient Estimation service <strong>execution time</strong> by <strong>20%</strong>.",
-        "<strong>Improved</strong> Face Blur Service in which resulted in <strong>57% cost reduction</strong>."
+        "<strong>Reduced</strong> Size Coefficient Estimation service <strong>execution time</strong> by <strong>20%</strong>.",
+        "<strong>Refined</strong> Face Blur Service in which resulted in <strong>57% cost reduction</strong>.",
+        "<strong>Maintained</strong> services, <strong>managed</strong> deployments with CI/CD pipelines to achieve 99% uptime (AWS Cloud Services: Lambda, Sagemaker, S3)."
       ],
       "responsibilities": [
         "<strong>Collaborated</strong> with the cloud development team at Wenn ASA.",
@@ -138,8 +139,8 @@
         "<strong>Successfully completed</strong> POC of Healthcare assistant project with <strong>90% accuracy</strong>."
       ],
       "responsibilities": [
-        "<strong>Lead/ Mentor</strong> a team of Machine Learning engineers.",
-        "<strong>Manage</strong> Machine Learning Team in R&D Division.",
+        "<strong>Manage/Mentor</strong> a team of Machine Learning engineers.",
+        "<strong>Interact</strong> with clients, <strong>gather/manage</strong> requirements.",
         "<strong>Product owner</strong> for Project Planigo-AI",
         "<strong>Designing, Implementing, and Deploying</strong> Machine Learning Models"
       ]
@@ -155,7 +156,9 @@
       ],
       "responsibilities": [
         "<strong>Product owner</strong> for the Swaphub project",
-        "<strong>Develop Applications</strong> for client requirements"
+        "<strong>Interact</strong> with clients, <strong>gather/manage</strong> requirements.",
+        "<strong>Develop Applications</strong> for client requirements",
+        "<strong>Managed/Collaborated</strong> between teams."
       ]
     },
     {
@@ -165,13 +168,31 @@
       "location": "Nawinna, Sri Lanka",
       "period": "12/2020 - 01/2022",
       "achievements": [
+        "<strong>Designed and Implemented</strong> CI/CD pipeline to improve deployment efficiency for machine learning systems.",
         "<strong>Deployed</strong> a state-of-the-art machine learning model on the AWS cloud platform.",
         "<strong>Scaled</strong> the model to identify 200 product classes.",
-        "<strong>Increase</strong> the throughput by 2x as it was.",
-        "<strong>Reduced initial inference time</strong> of the model by 10%."
+        "<strong>Increase</strong> the throughput by 2x.",
+        "<strong>Reduced</strong> initial inference time of the model by 10%."
       ],
       "responsibilities": [
         "<strong>Develop, evaluate, deploy and monitor</strong> state-of-the-art algorithms in the Computer Vision domain.",
+        "<strong>Apply software engineering practices</strong> to build efficient and scalable solutions deployed in a critical production setting.",
+        "<strong>Use a data-driven approach to solve unique and potentially unsolvable problems</strong> that require more than off-the-shelf algorithms."
+      ]
+    },
+    {
+      "title": "Associate Software Engineer",
+      "company": "Epic Lanka Technologies Pvt Ltd",
+      "description": "Epic Lanka Technologies Pvt Ltd is a premier Sri Lankan tech company leading secure payment automation and digital transformation. Develops Fintech, digitalization, security solutions for private/public sectors. Innovates banking with 98% market share in EDC/POS terminals in Sri Lanka.",
+      "location": "Battaramulla, Sri Lanka",
+      "period": "01/2020 - 12/2020",
+      "achievements": [
+        "<strong>Improved</strong> checkout efficiency by <strong>reducing cart abandonment by 25%</strong> through adding a retail chatbot handling product selection to check out.",
+        "Created a predictive analysis system that will predict items that a loyalty customer will buy to <strong>reduce time spend in the store by 50%</strong>.",
+        "Designed a custom recipe algorithm to reduce product waste in supermarkets."
+      ],
+      "responsibilities": [
+        "<strong>Develop, evaluate, deploy and monitor</strong> state-of-the-art algorithms utilising AI, machine learning and statistics.",
         "<strong>Apply software engineering practices</strong> to build efficient and scalable solutions deployed in a critical production setting.",
         "<strong>Use a data-driven approach to solve unique and potentially unsolvable problems</strong> that require more than off-the-shelf algorithms."
       ]
