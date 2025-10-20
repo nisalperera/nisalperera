@@ -15,7 +15,7 @@ function MainLayout({ data ={} }) {
   return (
     <>
       <Navigation certifications={data.certifications ?? [] } />
-      <div className="container" style={{ marginTop: "80px" }}>
+      <div className="container" style={{ marginTop: "80px", marginLeft: "300px", marginRight: "50px", width: "100%"}}>
         <Header />
         {/* This is where nested routes will render */}
         <Outlet />

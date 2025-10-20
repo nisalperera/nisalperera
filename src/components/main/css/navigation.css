@@ -1,0 +1,23 @@
+.offcanvas {
+    width: 220px;
+}
+@media (max-width: 991px) {
+    .position-fixed {
+        position: fixed !important;
+        left: 0;
+        top: 0;
+        width: 100%;
+    }
+}
+.sidebar-minimized .nav-link {
+  opacity: 0;
+  width: 0;
+  pointer-events: none;
+  transition: opacity 0.2s, width 0.2s;
+}
+.sidebar-minimized .fw-bold.h5 {
+  font-size: 1.5rem;
+}
+.sidebar-minimized .fw-bold.h4 {
+  font-size: 2rem;
+}
