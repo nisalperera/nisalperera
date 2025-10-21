@@ -3,6 +3,7 @@ import { Outlet } from "react-router-dom";
 import Navigation from "../components/main/Navigation";
 import Header from "../components/main/Header";
 import Footer from "../components/main/Footer";
+import { isMobile } from "react-device-detect";
 
 /**
  * Renders the main application layout with navigation, header, nested route content, and footer.
@@ -12,10 +13,11 @@ import Footer from "../components/main/Footer";
  */
 
 function MainLayout({ data ={} }) {
+
   return (
     <>
       <Navigation certifications={data.certifications ?? [] } />
-      <div className="container" style={{ marginTop: "80px", marginLeft: "300px", marginRight: "50px", width: "100%"}}>
+      <div className="container" style={{ marginTop: "80px", marginLeft: isMobile ? "auto" : "300px"}}>
         <Header />
         {/* This is where nested routes will render */}
         <Outlet />

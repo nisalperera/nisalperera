@@ -3,7 +3,7 @@ import React, { useContext } from 'react';
 import { ThemeContext } from '../../context/ThemeContext';
 import "./css/toggle.css"
 
-const ThemeToggle = ({ minimized=false }) => {
+const ThemeToggle = ({ minimized=false, isMobile=false }) => {
   const { theme, toggleTheme } = useContext(ThemeContext);
 
   return (
@@ -13,7 +13,8 @@ const ThemeToggle = ({ minimized=false }) => {
       aria-label={`Switch to ${theme === 'light' ? 'dark' : 'light'} mode`}
     >
       <span className="toggle-icon">{theme === 'light' ? '🌙' : '☀️'}</span>
-      {!minimized && (theme === 'light' ? 'Dark Mode' : 'Light Mode')}
+      {!minimized && !isMobile && (theme === 'light' ? 'Dark Mode' : 'Light Mode')}
+      {isMobile && (theme === 'light' ? 'Dark Mode' : 'Light Mode')}
     </button>
   );
 };

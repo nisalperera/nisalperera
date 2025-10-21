@@ -1,8 +1,8 @@
-
+import { isMobile } from "react-device-detect";
 
 function Footer() {
   return (
-    <footer className="footer">
+    <footer className="footer" style={{ marginLeft: isMobile ? "auto" : "200px"}}>
       <div className="container">
         <a href="https://github.com/nisalperera" target="_blank" rel="noopener noreferrer">
           <i className="fab fa-github"></i> GitHub

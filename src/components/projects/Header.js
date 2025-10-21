@@ -11,7 +11,7 @@ function Header() {
   return (
     <div className="header" style={{ alignContent: "center" }}>
       <h1 style={{ marginLeft: "2rem" }}>Project by Nisal Perera</h1>
-      <p>Artificial Intelligence | Machine Learning | Deep Learning | Computer Vision | Robotics | Research and Development</p>
+      <p>Artificial Intelligence | Machine Learning | Deep Learning | Computer Vision | Robotics</p>
     </div>
   );
 }

@@ -13,7 +13,7 @@ function Header() {
   const googleMapsUrl = `https://www.google.com/maps/place/${locationCoords}`;
 
   const image_path = REACT_APP_DEV
-    ? `${REACT_APP_DEV_URL}/2H8A6958 no back.png`
+    ? `${REACT_APP_DEV_URL}/2H8A6958_original.png`
     : "./2H8A6958 no back.png";
 
   return (

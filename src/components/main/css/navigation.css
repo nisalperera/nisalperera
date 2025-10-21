@@ -10,9 +10,9 @@
     }
 }
 .sidebar-minimized .nav-link {
-  opacity: 0;
-  width: 0;
-  pointer-events: none;
+  /* opacity: 0; */
+  /* width: 0; */
+  /* pointer-events: none; */
   transition: opacity 0.2s, width 0.2s;
 }
 .sidebar-minimized .fw-bold.h5 {
@@ -21,3 +21,53 @@
 .sidebar-minimized .fw-bold.h4 {
   font-size: 2rem;
 }
+.sidebar-icon {
+  font-size: 1.2em;
+  vertical-align: middle;
+}
+
+/* Only hide text, keep icon visible */
+.sidebar-minimized .nav-text {
+  opacity: 0;
+  width: 0;
+  display: inline-block;
+  transition: opacity 0.2s, width 0.2s;
+}
+.sidebar-minimized .sidebar-icon {
+  opacity: 1;
+  width: auto;
+}
+
+.nav-text {
+  display: inline-block;
+  vertical-align: middle;
+  transition: opacity 0.2s, width 0.2s;
+  opacity: 1;
+  width: auto;
+  white-space: nowrap;
+}
+
+.icon-group {
+  display: inline-flex;
+  gap: 10px; /* adds 10px space between spans */
+}
+
+.round-btn {
+  background-color: #f8f9fa;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  font-size: 14px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.3s;
+}
+
+.round-btn:hover {
+  background-color: #e2e6ea;
+}
+
+
