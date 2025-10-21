@@ -14,7 +14,7 @@ function Navigation({ certifications }) {
     const [minimized, setMinimized] = useState(false);
     const { theme } = useContext(ThemeContext);
 
-    const image_path = REACT_APP_DEV ? `${REACT_APP_DEV_URL}/2H8A6958_130x130.png` : "./2H8A6958 no back.png";
+    const image_path = REACT_APP_DEV ? `${REACT_APP_DEV_URL}/2H8A6958_130x130.png` : "./2H8A6958_130x130.png";
 
     const navBarClass = `navbar navbar-${theme} bg-${theme} position-fixed w-100 d-flex align-items-center justify-content-between px-3`
     const sidebarClass = `bg-${theme} navbar-${theme} position-fixed top-0 start-0 vh-100 d-flex flex-column justify-content-between border-end sidebar transition-all`

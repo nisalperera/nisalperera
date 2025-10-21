@@ -14,7 +14,7 @@ function Header() {
 
   const image_path = REACT_APP_DEV
     ? `${REACT_APP_DEV_URL}/2H8A6958_original.png`
-    : "./2H8A6958 no back.png";
+    : "./2H8A6958_original.png";
 
   return (
     <div className="header" style={{ alignContent: "center" }}>
