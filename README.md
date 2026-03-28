@@ -74,7 +74,7 @@ Welcome to my GitHub! I'm passionate about advancing automation and quality cont
 - 📞 +94 (77) 3122382
 - [LinkedIn](https://www.linkedin.com/in/nisalperera/)
 - [GitHub](https://github.com/nisalperera/)
-- Kochchikade, Sri Lanka
+- Negombo, Sri Lanka
 
 ---
 
