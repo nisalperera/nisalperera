@@ -25,8 +25,8 @@ Welcome to my GitHub! I'm passionate about advancing automation and quality cont
 | Institution                                    | Degree/Program                                                          | Period           |
 |------------------------------------------------|-------------------------------------------------------------------------|------------------|
 | IU International University of Applied Sciences | MSc in Artificial Intelligence: Applied Autonomous Driving (Thesis in progress)     | 08/2022 - 12/2026|
-| Birmingham City University, UK                  | B.Eng. (Honors) in Mechatronics Engineering                             | 06/2019 - 11/2020|
-| London Metropoliton University, UK              | B.Eng. (Honors) in Software Engineering                                 | 03/2018 - 11/2019|
+| Birmingham City University, UK                  | B.Eng. (Honors) in Mechatronics Engineering                             | 04/2017 - 11/2020|
+| London Metropoliton University, UK              | B.Eng. (Honors) in Software Engineering                                 | 10/2015 - 11/2019|
 
 ---
 
